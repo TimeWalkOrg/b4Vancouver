@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 1c988bd361df51f4bbd8a4d24bec3ddf
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000400000005000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 659bcaf5fd70656a01d5928ea78f2d85
+  longitude: -123.139122
+  latitude: 49.291294
+  northCorrection: 359.8945273364481
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -87.088104, y: 533.5358, z: 1357.563}
+      lookAt: {x: -81.945305, y: 343.52182, z: 736.9394}
+      up: {x: 0.0024257365, y: 0.95619106, z: -0.2927333}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Google Earth Snapshot
+    100002: Google Earth Snapshot 1
+    100004: Sophie
+    100006: //RootNode
+    400000: Google Earth Snapshot
+    400002: Google Earth Snapshot 1
+    400004: Sophie
+    400006: //RootNode
+    2100000: _defaultMat
+    2100002: Google Earth Snapshot
+    2100004: Google Earth Snapshot#1
+    2100006: Sophie_Skin
+    2100008: Sophie_Shirt_Red
+    2100010: Sophie_Shoes2
+    2100012: Sophie_Shirt_Gray
+    2100014: Sophie_Skirt
+    2100016: Sophie_Hair
+    2100018: Sophie_Shoes
+    2100020: Sophie_Shirt_Blue
+    2100022: '[Translucent Glass Sky Reflection]'
+    2100024: '[Translucent Glass Blue]'
+    2100026: Vancouver_skyscraper_01
+    2100028: '[Roofing Slate Dark]'
+    2100030: 32
+    2100032: 06
+    2100034: DSC00020#2
+    2100036: DSC00023#1
+    2300000: Google Earth Snapshot
+    2300002: Google Earth Snapshot 1
+    2300004: Sophie
+    2300006: //RootNode
+    3300000: Google Earth Snapshot
+    3300002: Google Earth Snapshot 1
+    3300004: Sophie
+    3300006: //RootNode
+    4300000: Mesh Vancouver-+West+End
+    4300002: Mesh Google Earth Snapshot
+    4300004: Mesh Google Earth Snapshot
+    4300006: Mesh Sophie
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06
+    second: {fileID: 2100000, guid: e349baeadaed4ef48a3fb13f4b62552e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 32
+    second: {fileID: 2100000, guid: 39c02201d7b7bac4bb556c850e2007d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DSC00020#2
+    second: {fileID: 2100000, guid: 77511c1c224b15343b8e39ab2f0df792, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DSC00023#1
+    second: {fileID: 2100000, guid: 2406223eb7d9f8b4ab9fb7e537d4c5b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2100000, guid: 7ec268f274ce73844ae978d65f136bb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Hair
+    second: {fileID: 2100000, guid: d152a6699b8302141877d40f0a59956e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Shirt_Blue
+    second: {fileID: 2100000, guid: f64c38e7153c88148a96d39fd59e1ae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Shirt_Gray
+    second: {fileID: 2100000, guid: 7958967c0f06ab348a09eb2f37deef5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Shirt_Red
+    second: {fileID: 2100000, guid: 54fcd5ddb4abd8a44ab257d663bfa9f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Shoes
+    second: {fileID: 2100000, guid: 42af968657197f845a121faf7f9cff4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Shoes2
+    second: {fileID: 2100000, guid: 1a52b3d53562b57499fd2c1ce562610b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Skin
+    second: {fileID: 2100000, guid: 6fe1a5d88a73e5d458d8de64266ef45f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sophie_Skirt
+    second: {fileID: 2100000, guid: b831e001df1fbba46b99b1f3ae05ab10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vancouver_skyscraper_01
+    second: {fileID: 2100000, guid: 655547d02fd5a5046a84c47ea2367b3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing Slate Dark]'
+    second: {fileID: 2100000, guid: cb145c2fd1f15bd49b5f28073eab4532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent Glass Blue]'
+    second: {fileID: 2100000, guid: a7e01f5b727f8c74680b0dcfdc211ea3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 06
+    second: {fileID: 2800000, guid: 1b3e54b92e671ae44a41c6d7d28bd2e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 32
+    second: {fileID: 2800000, guid: 80de7356ee0290e46b6b8e8aa4518579, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DSC00020
+    second: {fileID: 2800000, guid: c011ea6efeae46b428b6e189821bb742, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DSC00023
+    second: {fileID: 2800000, guid: 26b8ccf4fea1a804abf239f276408ea5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2800000, guid: cb1ba823bcf9c3743a5fa8e51110aef2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_Slate_Dark
+    second: {fileID: 2800000, guid: c50edb5e8b02ad04c9774ebe41956cee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vancouver_building_texture
+    second: {fileID: 2800000, guid: 3a74e58cec190e2458488ef8fac2d599, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: f67d31333ed29f54d87c2f970591b967
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+  assetHash:
+    serializedVersion: 2
+    Hash: bc314482a8aa071fc3d2509e01dd411e
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 242.0401, y: 1070.7404, z: 498.6907}
+      lookAt: {x: 248.7921, y: 929.2822, z: 516.94904}
+      up: {x: 0.34360984, y: 0.13633037, z: 0.9291643}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 2nd floor
+    100002: 2nd floor 1
+    100004: Base
+    100006: Base attachment
+    100008: Base Building
+    100010: Central circular area
+    100012: Footing
+    100014: Footing 1
+    100016: Footing 2
+    100018: Footing 3
+    100020: Footing 4
+    100022: Footing 5
+    100024: Footing 6
+    100026: //RootNode
+    100028: Roof
+    100030: Windows
+    100032: MuseumOfVancouver
+    400000: 2nd floor
+    400002: 2nd floor 1
+    400004: Base
+    400006: Base attachment
+    400008: Base Building
+    400010: Central circular area
+    400012: Footing
+    400014: Footing 1
+    400016: Footing 2
+    400018: Footing 3
+    400020: Footing 4
+    400022: Footing 5
+    400024: Footing 6
+    400026: //RootNode
+    400028: Roof
+    400030: Windows
+    400032: MuseumOfVancouver
+    2100000: _defaultMat
+    2100002: Image1
+    2100004: '[Translucent Glass Gray]'
+    2100006: '[Quartz Light Grey]'
+    2100008: '[Terrazzo Tile Light]'
+    2100010: '[Blacktop Old 01]'
+    2300000: 2nd floor
+    2300002: 2nd floor 1
+    2300004: Base
+    2300006: Base attachment
+    2300008: Base Building
+    2300010: Central circular area
+    2300012: Footing
+    2300014: Footing 1
+    2300016: Footing 2
+    2300018: Footing 3
+    2300020: Footing 4
+    2300022: Footing 5
+    2300024: Footing 6
+    2300026: Roof
+    2300028: Windows
+    3300000: 2nd floor
+    3300002: 2nd floor 1
+    3300004: Base
+    3300006: Base attachment
+    3300008: Base Building
+    3300010: Central circular area
+    3300012: Footing
+    3300014: Footing 1
+    3300016: Footing 2
+    3300018: Footing 3
+    3300020: Footing 4
+    3300022: Footing 5
+    3300024: Footing 6
+    3300026: Roof
+    3300028: Windows
+    4300000: Mesh Central circular area
+    4300002: Mesh Windows
+    4300004: Mesh Roof
+    4300006: Mesh Base
+    4300008: Mesh Base attachment
+    4300010: Mesh Footing
+    4300012: Mesh Base Building
+    4300014: Mesh 2nd floor
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blacktop Old 01
+    second: {fileID: 2800000, guid: c19e19be4f6fd9e4c922333db1f8dc03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Quartz Light Grey
+    second: {fileID: 2800000, guid: b67fb89c63ff1904c9aa67ed6d214092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sun'ahk Map Transparent JPG
+    second: {fileID: 2800000, guid: 5e9ea9de9598a544ba869e7fe9a0d631, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Terrazo Tile Light
+    second: {fileID: 2800000, guid: 201b4baca8633964ea35fe46b89d0054, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

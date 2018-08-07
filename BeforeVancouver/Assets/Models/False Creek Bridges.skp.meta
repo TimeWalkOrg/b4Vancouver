@@ -1,0 +1,820 @@
+fileFormatVersion: 2
+guid: 6058c49adb8814cc08bb8af8973b7c66
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f0100003001000031010000320100003301000034010000350100003601000037010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 59f6988bee58dbd345088604a10b0c01
+  longitude: -123.12861424709405
+  latitude: 49.271787455487406
+  northCorrection: 359.9025221581263
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -757.80927, y: 84.542015, z: 365.9661}
+      lookAt: {x: 717.9341, y: -386.48206, z: 1261.8356}
+      up: {x: 0.22500287, y: 0.9647366, z: 0.13659096}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Burrard bridge
+    100004: Burrard bridge tower
+    100006: Burrard bridge tower 1
+    100008: Google Earth Snapshot
+    100010: Arch
+    100012: Arch 1
+    100014: Arch 2
+    100016: Arch 3
+    100018: Blue decal on bridge
+    100020: Blue decal on bridge 1
+    100022: Blue decal on bridge 10
+    100024: Blue decal on bridge 11
+    100026: Blue decal on bridge 12
+    100028: Blue decal on bridge 13
+    100030: Blue decal on bridge 14
+    100032: Blue decal on bridge 15
+    100034: Blue decal on bridge 16
+    100036: Blue decal on bridge 17
+    100038: Blue decal on bridge 18
+    100040: Blue decal on bridge 19
+    100042: Blue decal on bridge 2
+    100044: Blue decal on bridge 20
+    100046: Blue decal on bridge 21
+    100048: Blue decal on bridge 22
+    100050: Blue decal on bridge 23
+    100052: Blue decal on bridge 24
+    100054: Blue decal on bridge 25
+    100056: Blue decal on bridge 26
+    100058: Blue decal on bridge 27
+    100060: Blue decal on bridge 28
+    100062: Blue decal on bridge 29
+    100064: Blue decal on bridge 3
+    100066: Blue decal on bridge 30
+    100068: Blue decal on bridge 31
+    100070: Blue decal on bridge 32
+    100072: Blue decal on bridge 33
+    100074: Blue decal on bridge 34
+    100076: Blue decal on bridge 35
+    100078: Blue decal on bridge 36
+    100080: Blue decal on bridge 37
+    100082: Blue decal on bridge 38
+    100084: Blue decal on bridge 39
+    100086: Blue decal on bridge 4
+    100088: Blue decal on bridge 40
+    100090: Blue decal on bridge 41
+    100092: Blue decal on bridge 42
+    100094: Blue decal on bridge 43
+    100096: Blue decal on bridge 44
+    100098: Blue decal on bridge 45
+    100100: Blue decal on bridge 46
+    100102: Blue decal on bridge 47
+    100104: Blue decal on bridge 48
+    100106: Blue decal on bridge 49
+    100108: Blue decal on bridge 5
+    100110: Blue decal on bridge 50
+    100112: Blue decal on bridge 51
+    100114: Blue decal on bridge 52
+    100116: Blue decal on bridge 53
+    100118: Blue decal on bridge 54
+    100120: Blue decal on bridge 55
+    100122: Blue decal on bridge 56
+    100124: Blue decal on bridge 57
+    100126: Blue decal on bridge 58
+    100128: Blue decal on bridge 59
+    100130: Blue decal on bridge 6
+    100132: Blue decal on bridge 60
+    100134: Blue decal on bridge 61
+    100136: Blue decal on bridge 62
+    100138: Blue decal on bridge 63
+    100140: Blue decal on bridge 64
+    100142: Blue decal on bridge 65
+    100144: Blue decal on bridge 7
+    100146: Blue decal on bridge 8
+    100148: Blue decal on bridge 9
+    100150: Bump
+    100152: Bump 1
+    100154: Bump 10
+    100156: Bump 11
+    100158: Bump 12
+    100160: Bump 13
+    100162: Bump 14
+    100164: Bump 15
+    100166: Bump 16
+    100168: Bump 17
+    100170: Bump 18
+    100172: Bump 19
+    100174: Bump 2
+    100176: Bump 20
+    100178: Bump 21
+    100180: Bump 22
+    100182: Bump 23
+    100184: Bump 24
+    100186: Bump 25
+    100188: Bump 26
+    100190: Bump 27
+    100192: Bump 28
+    100194: Bump 29
+    100196: Bump 3
+    100198: Bump 30
+    100200: Bump 31
+    100202: Bump 32
+    100204: Bump 33
+    100206: Bump 34
+    100208: Bump 35
+    100210: Bump 36
+    100212: Bump 37
+    100214: Bump 38
+    100216: Bump 39
+    100218: Bump 4
+    100220: Bump 40
+    100222: Bump 41
+    100224: Bump 42
+    100226: Bump 43
+    100228: Bump 44
+    100230: Bump 45
+    100232: Bump 46
+    100234: Bump 47
+    100236: Bump 48
+    100238: Bump 49
+    100240: Bump 5
+    100242: Bump 50
+    100244: Bump 51
+    100246: Bump 52
+    100248: Bump 53
+    100250: Bump 54
+    100252: Bump 55
+    100254: Bump 56
+    100256: Bump 57
+    100258: Bump 58
+    100260: Bump 59
+    100262: Bump 6
+    100264: Bump 60
+    100266: Bump 61
+    100268: Bump 62
+    100270: Bump 63
+    100272: Bump 7
+    100274: Bump 8
+    100276: Bump 9
+    100278: window
+    100280: window 1
+    100282: window 10
+    100284: window 11
+    100286: window 12
+    100288: window 13
+    100290: window 14
+    100292: window 15
+    100294: window 2
+    100296: window 3
+    100298: window 4
+    100300: window 5
+    100302: window 6
+    100304: window 7
+    100306: window 8
+    100308: window 9
+    400000: //RootNode
+    400002: Burrard bridge
+    400004: Burrard bridge tower
+    400006: Burrard bridge tower 1
+    400008: Google Earth Snapshot
+    400010: Arch
+    400012: Arch 1
+    400014: Arch 2
+    400016: Arch 3
+    400018: Blue decal on bridge
+    400020: Blue decal on bridge 1
+    400022: Blue decal on bridge 10
+    400024: Blue decal on bridge 11
+    400026: Blue decal on bridge 12
+    400028: Blue decal on bridge 13
+    400030: Blue decal on bridge 14
+    400032: Blue decal on bridge 15
+    400034: Blue decal on bridge 16
+    400036: Blue decal on bridge 17
+    400038: Blue decal on bridge 18
+    400040: Blue decal on bridge 19
+    400042: Blue decal on bridge 2
+    400044: Blue decal on bridge 20
+    400046: Blue decal on bridge 21
+    400048: Blue decal on bridge 22
+    400050: Blue decal on bridge 23
+    400052: Blue decal on bridge 24
+    400054: Blue decal on bridge 25
+    400056: Blue decal on bridge 26
+    400058: Blue decal on bridge 27
+    400060: Blue decal on bridge 28
+    400062: Blue decal on bridge 29
+    400064: Blue decal on bridge 3
+    400066: Blue decal on bridge 30
+    400068: Blue decal on bridge 31
+    400070: Blue decal on bridge 32
+    400072: Blue decal on bridge 33
+    400074: Blue decal on bridge 34
+    400076: Blue decal on bridge 35
+    400078: Blue decal on bridge 36
+    400080: Blue decal on bridge 37
+    400082: Blue decal on bridge 38
+    400084: Blue decal on bridge 39
+    400086: Blue decal on bridge 4
+    400088: Blue decal on bridge 40
+    400090: Blue decal on bridge 41
+    400092: Blue decal on bridge 42
+    400094: Blue decal on bridge 43
+    400096: Blue decal on bridge 44
+    400098: Blue decal on bridge 45
+    400100: Blue decal on bridge 46
+    400102: Blue decal on bridge 47
+    400104: Blue decal on bridge 48
+    400106: Blue decal on bridge 49
+    400108: Blue decal on bridge 5
+    400110: Blue decal on bridge 50
+    400112: Blue decal on bridge 51
+    400114: Blue decal on bridge 52
+    400116: Blue decal on bridge 53
+    400118: Blue decal on bridge 54
+    400120: Blue decal on bridge 55
+    400122: Blue decal on bridge 56
+    400124: Blue decal on bridge 57
+    400126: Blue decal on bridge 58
+    400128: Blue decal on bridge 59
+    400130: Blue decal on bridge 6
+    400132: Blue decal on bridge 60
+    400134: Blue decal on bridge 61
+    400136: Blue decal on bridge 62
+    400138: Blue decal on bridge 63
+    400140: Blue decal on bridge 64
+    400142: Blue decal on bridge 65
+    400144: Blue decal on bridge 7
+    400146: Blue decal on bridge 8
+    400148: Blue decal on bridge 9
+    400150: Bump
+    400152: Bump 1
+    400154: Bump 10
+    400156: Bump 11
+    400158: Bump 12
+    400160: Bump 13
+    400162: Bump 14
+    400164: Bump 15
+    400166: Bump 16
+    400168: Bump 17
+    400170: Bump 18
+    400172: Bump 19
+    400174: Bump 2
+    400176: Bump 20
+    400178: Bump 21
+    400180: Bump 22
+    400182: Bump 23
+    400184: Bump 24
+    400186: Bump 25
+    400188: Bump 26
+    400190: Bump 27
+    400192: Bump 28
+    400194: Bump 29
+    400196: Bump 3
+    400198: Bump 30
+    400200: Bump 31
+    400202: Bump 32
+    400204: Bump 33
+    400206: Bump 34
+    400208: Bump 35
+    400210: Bump 36
+    400212: Bump 37
+    400214: Bump 38
+    400216: Bump 39
+    400218: Bump 4
+    400220: Bump 40
+    400222: Bump 41
+    400224: Bump 42
+    400226: Bump 43
+    400228: Bump 44
+    400230: Bump 45
+    400232: Bump 46
+    400234: Bump 47
+    400236: Bump 48
+    400238: Bump 49
+    400240: Bump 5
+    400242: Bump 50
+    400244: Bump 51
+    400246: Bump 52
+    400248: Bump 53
+    400250: Bump 54
+    400252: Bump 55
+    400254: Bump 56
+    400256: Bump 57
+    400258: Bump 58
+    400260: Bump 59
+    400262: Bump 6
+    400264: Bump 60
+    400266: Bump 61
+    400268: Bump 62
+    400270: Bump 63
+    400272: Bump 7
+    400274: Bump 8
+    400276: Bump 9
+    400278: window
+    400280: window 1
+    400282: window 10
+    400284: window 11
+    400286: window 12
+    400288: window 13
+    400290: window 14
+    400292: window 15
+    400294: window 2
+    400296: window 3
+    400298: window 4
+    400300: window 5
+    400302: window 6
+    400304: window 7
+    400306: window 8
+    400308: window 9
+    2100000: _defaultMat
+    2100002: '[0136_Charcoal]'
+    2100004: '[0128_White]'
+    2100006: '[0129_WhiteSmoke]'
+    2100008: '[Metal Corrugated Shiny]'
+    2100010: '[Metal Steel Textured White]'
+    2100012: '[Blacktop Old 01]'
+    2100014: '[Asphalt New]'
+    2100016: '[Fencing Railing Metal]'
+    2100018: Google Earth Snapshot1
+    2100020: '[Cladding Stucco White]'
+    2100022: _Asphalt New_
+    2100024: '[Translucent Glass Blue]'
+    2100026: '[0089_PaleTurquoise]'
+    2100028: '[0045_Goldenrod]'
+    2300000: //RootNode
+    2300002: Burrard bridge
+    2300004: Burrard bridge tower
+    2300006: Burrard bridge tower 1
+    2300008: Google Earth Snapshot
+    2300010: Arch
+    2300012: Arch 1
+    2300014: Arch 2
+    2300016: Arch 3
+    2300018: Blue decal on bridge
+    2300020: Blue decal on bridge 1
+    2300022: Blue decal on bridge 10
+    2300024: Blue decal on bridge 11
+    2300026: Blue decal on bridge 12
+    2300028: Blue decal on bridge 13
+    2300030: Blue decal on bridge 14
+    2300032: Blue decal on bridge 15
+    2300034: Blue decal on bridge 16
+    2300036: Blue decal on bridge 17
+    2300038: Blue decal on bridge 18
+    2300040: Blue decal on bridge 19
+    2300042: Blue decal on bridge 2
+    2300044: Blue decal on bridge 20
+    2300046: Blue decal on bridge 21
+    2300048: Blue decal on bridge 22
+    2300050: Blue decal on bridge 23
+    2300052: Blue decal on bridge 24
+    2300054: Blue decal on bridge 25
+    2300056: Blue decal on bridge 26
+    2300058: Blue decal on bridge 27
+    2300060: Blue decal on bridge 28
+    2300062: Blue decal on bridge 29
+    2300064: Blue decal on bridge 3
+    2300066: Blue decal on bridge 30
+    2300068: Blue decal on bridge 31
+    2300070: Blue decal on bridge 32
+    2300072: Blue decal on bridge 33
+    2300074: Blue decal on bridge 34
+    2300076: Blue decal on bridge 35
+    2300078: Blue decal on bridge 36
+    2300080: Blue decal on bridge 37
+    2300082: Blue decal on bridge 38
+    2300084: Blue decal on bridge 39
+    2300086: Blue decal on bridge 4
+    2300088: Blue decal on bridge 40
+    2300090: Blue decal on bridge 41
+    2300092: Blue decal on bridge 42
+    2300094: Blue decal on bridge 43
+    2300096: Blue decal on bridge 44
+    2300098: Blue decal on bridge 45
+    2300100: Blue decal on bridge 46
+    2300102: Blue decal on bridge 47
+    2300104: Blue decal on bridge 48
+    2300106: Blue decal on bridge 49
+    2300108: Blue decal on bridge 5
+    2300110: Blue decal on bridge 50
+    2300112: Blue decal on bridge 51
+    2300114: Blue decal on bridge 52
+    2300116: Blue decal on bridge 53
+    2300118: Blue decal on bridge 54
+    2300120: Blue decal on bridge 55
+    2300122: Blue decal on bridge 56
+    2300124: Blue decal on bridge 57
+    2300126: Blue decal on bridge 58
+    2300128: Blue decal on bridge 59
+    2300130: Blue decal on bridge 6
+    2300132: Blue decal on bridge 60
+    2300134: Blue decal on bridge 61
+    2300136: Blue decal on bridge 62
+    2300138: Blue decal on bridge 63
+    2300140: Blue decal on bridge 64
+    2300142: Blue decal on bridge 65
+    2300144: Blue decal on bridge 7
+    2300146: Blue decal on bridge 8
+    2300148: Blue decal on bridge 9
+    2300150: Bump
+    2300152: Bump 1
+    2300154: Bump 10
+    2300156: Bump 11
+    2300158: Bump 12
+    2300160: Bump 13
+    2300162: Bump 14
+    2300164: Bump 15
+    2300166: Bump 16
+    2300168: Bump 17
+    2300170: Bump 18
+    2300172: Bump 19
+    2300174: Bump 2
+    2300176: Bump 20
+    2300178: Bump 21
+    2300180: Bump 22
+    2300182: Bump 23
+    2300184: Bump 24
+    2300186: Bump 25
+    2300188: Bump 26
+    2300190: Bump 27
+    2300192: Bump 28
+    2300194: Bump 29
+    2300196: Bump 3
+    2300198: Bump 30
+    2300200: Bump 31
+    2300202: Bump 32
+    2300204: Bump 33
+    2300206: Bump 34
+    2300208: Bump 35
+    2300210: Bump 36
+    2300212: Bump 37
+    2300214: Bump 38
+    2300216: Bump 39
+    2300218: Bump 4
+    2300220: Bump 40
+    2300222: Bump 41
+    2300224: Bump 42
+    2300226: Bump 43
+    2300228: Bump 44
+    2300230: Bump 45
+    2300232: Bump 46
+    2300234: Bump 47
+    2300236: Bump 48
+    2300238: Bump 49
+    2300240: Bump 5
+    2300242: Bump 50
+    2300244: Bump 51
+    2300246: Bump 52
+    2300248: Bump 53
+    2300250: Bump 54
+    2300252: Bump 55
+    2300254: Bump 56
+    2300256: Bump 57
+    2300258: Bump 58
+    2300260: Bump 59
+    2300262: Bump 6
+    2300264: Bump 60
+    2300266: Bump 61
+    2300268: Bump 62
+    2300270: Bump 63
+    2300272: Bump 7
+    2300274: Bump 8
+    2300276: Bump 9
+    2300278: window
+    2300280: window 1
+    2300282: window 10
+    2300284: window 11
+    2300286: window 12
+    2300288: window 13
+    2300290: window 14
+    2300292: window 15
+    2300294: window 2
+    2300296: window 3
+    2300298: window 4
+    2300300: window 5
+    2300302: window 6
+    2300304: window 7
+    2300306: window 8
+    2300308: window 9
+    3300000: //RootNode
+    3300002: Burrard bridge
+    3300004: Burrard bridge tower
+    3300006: Burrard bridge tower 1
+    3300008: Google Earth Snapshot
+    3300010: Arch
+    3300012: Arch 1
+    3300014: Arch 2
+    3300016: Arch 3
+    3300018: Blue decal on bridge
+    3300020: Blue decal on bridge 1
+    3300022: Blue decal on bridge 10
+    3300024: Blue decal on bridge 11
+    3300026: Blue decal on bridge 12
+    3300028: Blue decal on bridge 13
+    3300030: Blue decal on bridge 14
+    3300032: Blue decal on bridge 15
+    3300034: Blue decal on bridge 16
+    3300036: Blue decal on bridge 17
+    3300038: Blue decal on bridge 18
+    3300040: Blue decal on bridge 19
+    3300042: Blue decal on bridge 2
+    3300044: Blue decal on bridge 20
+    3300046: Blue decal on bridge 21
+    3300048: Blue decal on bridge 22
+    3300050: Blue decal on bridge 23
+    3300052: Blue decal on bridge 24
+    3300054: Blue decal on bridge 25
+    3300056: Blue decal on bridge 26
+    3300058: Blue decal on bridge 27
+    3300060: Blue decal on bridge 28
+    3300062: Blue decal on bridge 29
+    3300064: Blue decal on bridge 3
+    3300066: Blue decal on bridge 30
+    3300068: Blue decal on bridge 31
+    3300070: Blue decal on bridge 32
+    3300072: Blue decal on bridge 33
+    3300074: Blue decal on bridge 34
+    3300076: Blue decal on bridge 35
+    3300078: Blue decal on bridge 36
+    3300080: Blue decal on bridge 37
+    3300082: Blue decal on bridge 38
+    3300084: Blue decal on bridge 39
+    3300086: Blue decal on bridge 4
+    3300088: Blue decal on bridge 40
+    3300090: Blue decal on bridge 41
+    3300092: Blue decal on bridge 42
+    3300094: Blue decal on bridge 43
+    3300096: Blue decal on bridge 44
+    3300098: Blue decal on bridge 45
+    3300100: Blue decal on bridge 46
+    3300102: Blue decal on bridge 47
+    3300104: Blue decal on bridge 48
+    3300106: Blue decal on bridge 49
+    3300108: Blue decal on bridge 5
+    3300110: Blue decal on bridge 50
+    3300112: Blue decal on bridge 51
+    3300114: Blue decal on bridge 52
+    3300116: Blue decal on bridge 53
+    3300118: Blue decal on bridge 54
+    3300120: Blue decal on bridge 55
+    3300122: Blue decal on bridge 56
+    3300124: Blue decal on bridge 57
+    3300126: Blue decal on bridge 58
+    3300128: Blue decal on bridge 59
+    3300130: Blue decal on bridge 6
+    3300132: Blue decal on bridge 60
+    3300134: Blue decal on bridge 61
+    3300136: Blue decal on bridge 62
+    3300138: Blue decal on bridge 63
+    3300140: Blue decal on bridge 64
+    3300142: Blue decal on bridge 65
+    3300144: Blue decal on bridge 7
+    3300146: Blue decal on bridge 8
+    3300148: Blue decal on bridge 9
+    3300150: Bump
+    3300152: Bump 1
+    3300154: Bump 10
+    3300156: Bump 11
+    3300158: Bump 12
+    3300160: Bump 13
+    3300162: Bump 14
+    3300164: Bump 15
+    3300166: Bump 16
+    3300168: Bump 17
+    3300170: Bump 18
+    3300172: Bump 19
+    3300174: Bump 2
+    3300176: Bump 20
+    3300178: Bump 21
+    3300180: Bump 22
+    3300182: Bump 23
+    3300184: Bump 24
+    3300186: Bump 25
+    3300188: Bump 26
+    3300190: Bump 27
+    3300192: Bump 28
+    3300194: Bump 29
+    3300196: Bump 3
+    3300198: Bump 30
+    3300200: Bump 31
+    3300202: Bump 32
+    3300204: Bump 33
+    3300206: Bump 34
+    3300208: Bump 35
+    3300210: Bump 36
+    3300212: Bump 37
+    3300214: Bump 38
+    3300216: Bump 39
+    3300218: Bump 4
+    3300220: Bump 40
+    3300222: Bump 41
+    3300224: Bump 42
+    3300226: Bump 43
+    3300228: Bump 44
+    3300230: Bump 45
+    3300232: Bump 46
+    3300234: Bump 47
+    3300236: Bump 48
+    3300238: Bump 49
+    3300240: Bump 5
+    3300242: Bump 50
+    3300244: Bump 51
+    3300246: Bump 52
+    3300248: Bump 53
+    3300250: Bump 54
+    3300252: Bump 55
+    3300254: Bump 56
+    3300256: Bump 57
+    3300258: Bump 58
+    3300260: Bump 59
+    3300262: Bump 6
+    3300264: Bump 60
+    3300266: Bump 61
+    3300268: Bump 62
+    3300270: Bump 63
+    3300272: Bump 7
+    3300274: Bump 8
+    3300276: Bump 9
+    3300278: window
+    3300280: window 1
+    3300282: window 10
+    3300284: window 11
+    3300286: window 12
+    3300288: window 13
+    3300290: window 14
+    3300292: window 15
+    3300294: window 2
+    3300296: window 3
+    3300298: window 4
+    3300300: window 5
+    3300302: window 6
+    3300304: window 7
+    3300306: window 8
+    3300308: window 9
+    4300000: Mesh False Creek Bridges
+    4300002: Mesh Google Earth Snapshot
+    4300004: Mesh Burrard bridge
+    4300006: Mesh Burrard bridge tower
+    4300008: Mesh Burrard bridge tower
+    4300010: Mesh window
+    4300012: Mesh Bump
+    4300014: Mesh Blue decal on bridge
+    4300016: Mesh window
+    4300018: Mesh Bump
+    4300020: Mesh Blue decal on bridge
+    4300022: Mesh Arch
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot1
+    second: {fileID: 2100000, guid: 975746881dd6dcf408c62d63bfdfebcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Asphalt New]'
+    second: {fileID: 2100000, guid: f5d5c42eeffcf104f95fd7e89c5ef6b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Blacktop Old 01]'
+    second: {fileID: 2100000, guid: 06a4fd9dc81a3b94aac1ad131be73d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Cladding Stucco White]'
+    second: {fileID: 2100000, guid: 0652030b84d6c7c4d869c0bbef6e8c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Metal Corrugated Shiny]'
+    second: {fileID: 2100000, guid: e685d00a943ddd24281c7c36c76b846f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Asphalt New_
+    second: {fileID: 2100000, guid: 2de0ba3fa60e89b4b98b2fc7351f9ac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 41e8e9d483a3b1b4397b29a5e49381ae, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2800000, guid: 0c13251af6dfd2c458909ef864816b9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blacktop Old 01
+    second: {fileID: 2800000, guid: 71a41447363a6b34a9422dddf4825b57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cladding_Stucco_White
+    second: {fileID: 2800000, guid: d979e68342e28c84f8af6af31484f41e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GEI29
+    second: {fileID: 2800000, guid: fc49b11620edaa646ba65ea2eda29c1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Corrogated_Shiny
+    second: {fileID: 2800000, guid: 34209ac516d6e3d4096c8b213a9f3786, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _Asphalt New_
+    second: {fileID: 2800000, guid: e8d02f2cc9449454a8927df6415b68c6, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
