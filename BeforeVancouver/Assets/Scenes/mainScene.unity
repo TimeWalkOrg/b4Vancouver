@@ -324,7 +324,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Salish
+  m_text: 'Coast Salish
 
     Longhouse'
   m_isRightToLeft: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 7
+  m_firstOverflowCharacterIndex: 13
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -394,10 +394,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1349808}
-    characterCount: 16
+    characterCount: 22
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 2
+    wordCount: 3
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -21409,7 +21409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &401689670
 Transform:
   m_ObjectHideFlags: 0
@@ -31132,7 +31132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &746946916
 GameObject:
   m_ObjectHideFlags: 0
@@ -43770,7 +43770,6 @@ Transform:
   - {fileID: 1138225503}
   - {fileID: 974153332}
   - {fileID: 1220255722}
-  - {fileID: 1356988350}
   - {fileID: 1354237976}
   - {fileID: 516546525}
   m_Father: {fileID: 223280286}
@@ -51093,6 +51092,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.9881423, z: 1}
   m_Children:
   - {fileID: 1911625598}
+  - {fileID: 1356988350}
   m_Father: {fileID: 982140192}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -55363,19 +55363,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 982140192}
+    m_TransformParent: {fileID: 1220255722}
     m_Modifications:
     - target: {fileID: 4675922172553538, guid: 6acb7e2567ffe57478f5184e4c05d949, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -10.7
+      value: 257.28052
       objectReference: {fileID: 0}
     - target: {fileID: 4675922172553538, guid: 6acb7e2567ffe57478f5184e4c05d949, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -66.3
+      value: -19.486227
       objectReference: {fileID: 0}
     - target: {fileID: 4675922172553538, guid: 6acb7e2567ffe57478f5184e4c05d949, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 49.8
+      value: 760.7141
       objectReference: {fileID: 0}
     - target: {fileID: 4675922172553538, guid: 6acb7e2567ffe57478f5184e4c05d949, type: 2}
       propertyPath: m_LocalRotation.x
@@ -55395,11 +55395,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4675922172553538, guid: 6acb7e2567ffe57478f5184e4c05d949, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4675922172553538, guid: 6acb7e2567ffe57478f5184e4c05d949, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.9881423
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6acb7e2567ffe57478f5184e4c05d949, type: 2}
