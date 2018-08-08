@@ -7,7 +7,7 @@ Helpful Class Links:
 * [Class #1 - Curriculum](https://docs.google.com/document/d/15mRaz1rRTDv9DvKjN7kZxqbE_VucmmTmRQneLJxBOSU/edit)
 * [B4Van.com](https://b4van.com/)
 
-We are recreating this Squamish village as of 1800 CE:
+We are recreating this Squamish village as of 1885 CE:
 ![Map](https://github.com/TimeWalkOrg/BeforeVancouver/blob/master/Sun'ahk%20Map.jpg)
 
 Map highlighting local creeks:
