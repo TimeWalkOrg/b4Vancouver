@@ -301,7 +301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.9, y: -13.606}
+  m_AnchoredPosition: {x: 6.43, y: -13.606}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349808
@@ -54751,8 +54751,8 @@ MonoBehaviour:
   _minAnimationSpeed: 0.8
   _maxAnimationSpeed: 1.2
   _randomPositionTimer: 3
-  _positionSphere: 37.6
-  _positionSphereHeight: 10
+  _positionSphere: 27.5
+  _positionSphereHeight: 4.29
   _positionSphereDepth: 10.7
   _childTriggerPos: 1
   _forceChildWaypoints: 1
@@ -54771,7 +54771,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   _roamers: []
-  _posBuffer: {x: 2420.7805, y: 112.16269, z: 2671.914}
+  _posBuffer: {x: 2414.0806, y: 112.16269, z: 2699.5142}
   _updateDivisor: 1
   _newDelta: 0
   _updateCounter: 0
