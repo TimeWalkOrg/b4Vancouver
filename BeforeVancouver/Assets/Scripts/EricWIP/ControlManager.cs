@@ -82,29 +82,37 @@ public class ControlManager : MonoBehaviour
             ToggleDayNight();
 
 
+        if (Input.GetKeyUp(KeyCode.T))
+            TeleportToLocation();
+
         if (Input.GetKeyUp(KeyCode.Q))
             Application.Quit();
         #if UNITY_STANDALONE_WIN
         if (UnityEngine.XR.XRSettings.enabled)
 		{
-			OVRInput.Button oculusTouchButtonA = OVRInput.Button.PrimaryIndexTrigger;
+			OVRInput.Button oculusTouchButtonA = OVRInput.Button.PrimaryIndexTrigger;  // Oculus GO: Trigger button for Time Travel
             // OVRInput.Button oculusTouchButtonB = OVRInput.Button.One; Commented out for Oculus Rift - check if GO running
 
-            OVRInput.Button oculusTouchButtonB = OVRInput.Button.Two;
-            
+            OVRInput.Button oculusTouchButtonB = OVRInput.Button.Two; // Oculus GO: Back button for Day/Night
+            OVRInput.Button oculusTouchButtonC = OVRInput.Button.One; // Oculus GO: Click dpad button for Teleport
 
             OVRInput.Controller activeController = OVRInput.GetActiveController();
 
 			if (OVRInput.GetUp(oculusTouchButtonA))
-			{
+            {
 				SetYear();
 			}
 
 			if (OVRInput.GetUp(oculusTouchButtonB))
-			{
+            {
 				ToggleDayNight();
 			}
-		}
+
+            if (OVRInput.GetUp(oculusTouchButtonC))
+            {
+                TeleportToLocation();
+            }
+        }
         #endif
 	}
 
@@ -134,7 +142,12 @@ public class ControlManager : MonoBehaviour
 		Missive.Send(missive);
 	}
 
-	private void ToggleDayNight()
+    private void TeleportToLocation()
+    {
+        // Does nothing for now: placed on player object since I couldn't figure out how to remotely change the player location
+    }
+
+    private void ToggleDayNight()
 	{
 		isDay = !isDay;
 		RenderSettings.skybox = isDay ? daySkyboxMat: nightSkyboxMat;

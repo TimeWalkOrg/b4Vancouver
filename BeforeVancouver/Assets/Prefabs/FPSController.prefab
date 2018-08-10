@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 136219094704355172}
   - component: {fileID: 114400156535222054}
   - component: {fileID: 114812419198331998}
+  - component: {fileID: 114480599542918830}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Untagged
@@ -279,6 +280,23 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &114480599542918830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849108729063988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57df364b0472dc4092e2f67cf1950c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleportLocations:
+  - {fileID: 4718921049359170, guid: 9424cf4c20a30404a83146a051b709ab, type: 2}
+  - {fileID: 4544977795219986, guid: fd01eec43537b2e45943be832f787178, type: 2}
+  - {fileID: 4289390927444152, guid: 0b66feb887ae43540a085f175bc18c99, type: 2}
+  - {fileID: 4067158051198540, guid: 51f6c15bb75614f439ecdd526d1afbda, type: 2}
+  - {fileID: 4352341954925124, guid: a33743c52d84a164194dc0accbf5cbfd, type: 2}
 --- !u!114 &114812419198331998
 MonoBehaviour:
   m_ObjectHideFlags: 1
