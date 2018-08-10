@@ -30,7 +30,22 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh blanket3
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall Hanging-GabrielLinda-SAM#1
+    second: {fileID: 2100000, guid: d58e5e5f1ac64b74d97642e0af13932e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 47e03eb3f55464a4c9bcdd6011bb61b5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wall Hanging-GabrielLinda-SAM
+    second: {fileID: 2800000, guid: ea5426e7459f3354c9e595245210772e, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

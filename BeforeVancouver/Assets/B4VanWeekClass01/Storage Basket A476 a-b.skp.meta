@@ -40,7 +40,92 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Storage Basket A476 a-b
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-02
+    second: {fileID: 2100000, guid: 5425af09c5b89554ba0498de66a9f80b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-02#2
+    second: {fileID: 2100000, guid: f252dcc30b746b04cad53b4a40148ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-02#3
+    second: {fileID: 2100000, guid: 6ad9387db73403546a68e7c760689cbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04
+    second: {fileID: 2100000, guid: e4e2bd38aa28b954d9abce20895d7601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04#1
+    second: {fileID: 2100000, guid: 6266665e35c8983448860af221f09935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04#3
+    second: {fileID: 2100000, guid: a866b74819f711649be030a9411b52f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04#4
+    second: {fileID: 2100000, guid: e379e93263b711d48868dc68e1493198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04#5
+    second: {fileID: 2100000, guid: eb9a8b2f86b5283449205e7594950d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04#6
+    second: {fileID: 2100000, guid: 0f915735a55d1514f90097e0bd2ef619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-05#1
+    second: {fileID: 2100000, guid: 8ab610c2e7bdf754498f20abf149d4a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-05#2
+    second: {fileID: 2100000, guid: 51b417fb238333b43b787d2bb217d106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: b20efa0ff6a8b6b4ca45d18cdd0e46e6, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-02
+    second: {fileID: 2800000, guid: 5755d91d06f32f847839d292a8743359, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-02#1
+    second: {fileID: 2800000, guid: e3c83434308bb594a830e13a37df536c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04
+    second: {fileID: 2800000, guid: e0513661cd4139943b2b2986222dae34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-04#2
+    second: {fileID: 2800000, guid: 97f2a973e080ec247843fc191e5450fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A476 a-b-05
+    second: {fileID: 2800000, guid: 12ca8a6dd7a792a44b868888219649c1, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

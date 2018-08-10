@@ -29,7 +29,17 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Cynthia Maul second type
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Granite Dark Gray]'
+    second: {fileID: 2100000, guid: 5ffe783f31ece664eb02ab3db4dbd2be, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Granite 01
+    second: {fileID: 2800000, guid: e695d1322e2476b44b51145d1e7c9c83, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

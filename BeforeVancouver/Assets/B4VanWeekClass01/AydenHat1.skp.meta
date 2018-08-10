@@ -32,7 +32,32 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh AydenHat1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceder Weave Texture
+    second: {fileID: 2100000, guid: b5f2b7af5a4b1914f9c6d7b3bddfd5e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: 9920c9742da3a424b954593216cb70ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M00]'
+    second: {fileID: 2100000, guid: 90ca29168ee404d4ebb349e81833bc56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 1c8c9dbf00f8c99458e54f345ed745a3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ceder Weave Texture
+    second: {fileID: 2800000, guid: e75eb469d3a1c834c83407ee6d1898ef, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

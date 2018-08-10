@@ -30,7 +30,22 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh AydenHat2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: fff5bf4cd4be694499812dee3868ed96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: new hat
+    second: {fileID: 2100000, guid: 595c22bd5a802eb4f83707f27ad00311, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ceder Weave Texture rotated 90
+    second: {fileID: 2800000, guid: fcf54dd7185b9004180aedfa0512bee4, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

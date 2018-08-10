@@ -29,7 +29,17 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Kieran S. Maul A2297-00 Lathed
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Granite Dark Gray]'
+    second: {fileID: 2100000, guid: 782cf77314493c64688b1c209b6b677f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Granite 01
+    second: {fileID: 2800000, guid: 39671d7db904b0d48811cbc38ea7dea2, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

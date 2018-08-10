@@ -30,7 +30,22 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Maul A2297-00
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 8e0177946b4e94040ae3445d63bb5c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone-Dark-02
+    second: {fileID: 2100000, guid: 5398e2ccce49eb84984b91acd0f75f60, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone-Dark-02
+    second: {fileID: 2800000, guid: 7131f92ef5f67fd40af62e48c5b3dbd0, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

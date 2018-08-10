@@ -52,7 +52,152 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Storage Basket A8454
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceder Weave Texture#1
+    second: {fileID: 2100000, guid: 73b7d1def303340488927b0f69a7a8bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02
+    second: {fileID: 2100000, guid: 301b06034b30df2478fa41d04fa82821, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#1
+    second: {fileID: 2100000, guid: 1bb292127a90a9c458988776eed02b31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#2
+    second: {fileID: 2100000, guid: 85b5bd070ae7cc0479f4a72f7e563393, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#3
+    second: {fileID: 2100000, guid: 13616ba54cae10b4da0a969838c75d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#4
+    second: {fileID: 2100000, guid: 36dff8e1356298c4e89e42fe41c9c8f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#5
+    second: {fileID: 2100000, guid: 85e7c0321db17644ea55f366347d8455, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#6
+    second: {fileID: 2100000, guid: bc3ed847d0e4f7f4fa9706e2f4228efd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#7
+    second: {fileID: 2100000, guid: 3d372b71dddd2c4438309ba782e09df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02#8
+    second: {fileID: 2100000, guid: bbf85bacfb7774048aa66d644be43594, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#1
+    second: {fileID: 2100000, guid: ee286c64be4736f4f89b1931644c4f43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#10
+    second: {fileID: 2100000, guid: af098252e9eaafb418d6caffafa0b43c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#2
+    second: {fileID: 2100000, guid: 983ed700201c95b4a8f26a9e0037ff9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#3
+    second: {fileID: 2100000, guid: c99b5dbb8d967d5439ecef939c5e6533, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#4
+    second: {fileID: 2100000, guid: 82febd65ee905c04fb1f0ea7990f84a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#5
+    second: {fileID: 2100000, guid: bb1464d5ab5422c4bbf06bd73d63cb2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#6
+    second: {fileID: 2100000, guid: a3b31c62e53b788448e0dd14513686b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#7
+    second: {fileID: 2100000, guid: 0df643eaf6ab4bf42b5108cbdfe14330, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#8
+    second: {fileID: 2100000, guid: 1ff61ee810a59cd4d8a0b11e56599f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03#9
+    second: {fileID: 2100000, guid: d1439638b10fef54fab5ecf8451d119e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-04#1
+    second: {fileID: 2100000, guid: bd2c00e33d5e4df40b814c90c7012cc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-04#3
+    second: {fileID: 2100000, guid: 35b71620021d37044b5caaaae587775e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-04#4
+    second: {fileID: 2100000, guid: 5345bd70f3c58314db72e35ac24b31d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 26ac1f94fd6130b48aeb199beb341a16, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ceder Weave Texture
+    second: {fileID: 2800000, guid: fa52c51fdc28f834380dc7a1a8ab462c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-02
+    second: {fileID: 2800000, guid: d363a9b1abdb56c42848e83c371e4043, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-03
+    second: {fileID: 2800000, guid: 64150b61b98d93e4a8a5b55974223910, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-04
+    second: {fileID: 2800000, guid: cdb92dd397bc34d4586879c6983e6120, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A8454-04#2
+    second: {fileID: 2800000, guid: 53cdd827fdf45814386664de1b911e67, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

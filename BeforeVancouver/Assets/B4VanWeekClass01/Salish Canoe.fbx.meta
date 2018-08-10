@@ -11,7 +11,17 @@ ModelImporter:
     2300000: Object_1
     3300000: Object_1
     4300000: Object_1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood-083_cedar-western-red-3_d
+    second: {fileID: 2100000, guid: eec733aa402667d4da7900f501cc2f2d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood-083_cedar-western-red-3_d
+    second: {fileID: 2800000, guid: 03914dbd52c1c6448a8e1acb008ee2ae, type: 3}
   materials:
     importMaterials: 1
     materialName: 0

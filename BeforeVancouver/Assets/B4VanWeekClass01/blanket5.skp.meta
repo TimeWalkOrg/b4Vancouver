@@ -31,7 +31,27 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh blanket5
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChiefsBlanket-A8039-SAM
+    second: {fileID: 2100000, guid: d9439cbd762b7ae43829bd646c5c7d64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChiefsBlanket-A8039-SAM#1
+    second: {fileID: 2100000, guid: c05f772d4793ac648a982dabc673037d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 0be074326d8663b48bf4bd48607c1d73, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ChiefsBlanket-A8039-SAM
+    second: {fileID: 2800000, guid: 45138ecf1e921284285538aa32b7ba04, type: 3}
   materials:
     importMaterials: 1
     materialName: 2

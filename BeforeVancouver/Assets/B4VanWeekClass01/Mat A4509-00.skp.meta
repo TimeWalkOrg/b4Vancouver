@@ -30,7 +30,22 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Mat A4509-00
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat A4509-00
+    second: {fileID: 2100000, guid: 402a1c4dff1166f43901838fd633bcce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: c7c0ac2897fce714a94546df3e06f532, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat A4509-00
+    second: {fileID: 2800000, guid: b0f9cd7386ea7634fbeecb0e9e300e79, type: 3}
   materials:
     importMaterials: 1
     materialName: 2
