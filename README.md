@@ -1,7 +1,7 @@
 # b4Vancouver
 
 Helpful Class Links:
-* [B4Van.com](https://b4van.com/)
+* [B4Van.com (class website)](https://b4van.com/)
 * [Class Slides](https://docs.google.com/presentation/d/1VJWI3uYCIq5rA10_GQAQt7BhECVzBpARzos-ccIfKxY/edit?usp=sharing)
 * [Class Lists](https://docs.google.com/spreadsheets/d/12r-mLX0GRnHWKrvgyK82KvFKT3QKRrJXg6Zz6SLzxKE/edit#gid=130635240)
 * [Class #1 - Curriculum](https://docs.google.com/document/d/15mRaz1rRTDv9DvKjN7kZxqbE_VucmmTmRQneLJxBOSU/edit)
@@ -11,11 +11,8 @@ Helpful Class Links:
 The B4Vancouver team is recreating the Squamish village of "Senakw" as of 1866 CE:
 * [Senakw on Wikipedia](https://en.wikipedia.org/wiki/Senakw)
 
-Maps of the village:
+Map of the village:
 ![Map](https://github.com/TimeWalkOrg/BeforeVancouver/blob/master/Sun'ahk%20Map.jpg)
-
-![Creeks](https://github.com/TimeWalkOrg/BeforeVancouver/blob/master/
-Creeks%20Map.jpg)
 
 To download the Unity Project files, you can either:
 1. use a Github client (e.g. Sourcetree), which will allow you to make local changes and push them back to the project
