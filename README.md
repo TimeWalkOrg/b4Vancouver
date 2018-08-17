@@ -2,7 +2,7 @@
 
 Helpful Class Links:
 * [B4Van.com](https://b4van.com/)
-* [Class Slides](https://docs.google.com/presentation/d/1VJWI3uYCIq5rA10_GQAQt7BhECVzBpARzos/edit?usp=sharing)
+* [Class Slides](https://docs.google.com/presentation/d/1VJWI3uYCIq5rA10_GQAQt7BhECVzBpARzos-ccIfKxY/edit?usp=sharing)
 * [Class Lists](https://docs.google.com/spreadsheets/d/12r-mLX0GRnHWKrvgyK82KvFKT3QKRrJXg6Zz6SLzxKE/edit#gid=130635240)
 * [Class #1 - Curriculum](https://docs.google.com/document/d/15mRaz1rRTDv9DvKjN7kZxqbE_VucmmTmRQneLJxBOSU/edit)
 * [Class #2 - Curriculum](https://docs.google.com/document/d/1ifdytfytvAbIKVy5w0V2I9iR318rYQVAyXdDgtU0l7Y/edit)
