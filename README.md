@@ -1,16 +1,19 @@
 # b4Vancouver
 
 Helpful Class Links:
-* [Class Google Drive](https://drive.google.com/drive/folders/1Ah_4uJK0kjSuUvuj_m7DGNI40xC8kNCi?usp=sharing)
-* [Class Slides](https://docs.google.com/presentation/d/1Zwl7zCri6xsqczkPznjSKGYinjghAJB7MMd1kJhNThg/edit?usp=sharing)
+* [B4Van.com](https://b4van.com/)
+* [Class Slides](https://docs.google.com/presentation/d/1VJWI3uYCIq5rA10_GQAQt7BhECVzBpARzos/edit?usp=sharing)
 * [Class Lists](https://docs.google.com/spreadsheets/d/12r-mLX0GRnHWKrvgyK82KvFKT3QKRrJXg6Zz6SLzxKE/edit#gid=130635240)
 * [Class #1 - Curriculum](https://docs.google.com/document/d/15mRaz1rRTDv9DvKjN7kZxqbE_VucmmTmRQneLJxBOSU/edit)
-* [B4Van.com](https://b4van.com/)
+* [Class #2 - Curriculum](https://docs.google.com/document/d/1ifdytfytvAbIKVy5w0V2I9iR318rYQVAyXdDgtU0l7Y/edit)
+* [Class #3 - Curriculum](https://docs.google.com/document/d/1Wc9SF6eIj6mXEyXgdCsH9IvNICM47Hvt82Zvieot-OY/edit)
 
-We are recreating this Squamish village as of 1885 CE:
+The B4Vancouver team is recreating the Squamish village of "Senakw" as of 1866 CE:
+* [Senakw on Wikipedia](https://en.wikipedia.org/wiki/Senakw)
+
+Maps of the village:
 ![Map](https://github.com/TimeWalkOrg/BeforeVancouver/blob/master/Sun'ahk%20Map.jpg)
 
-Map highlighting local creeks:
 ![Creeks](https://github.com/TimeWalkOrg/BeforeVancouver/blob/master/
 Creeks%20Map.jpg)
 
