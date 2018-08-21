@@ -1,0 +1,32 @@
+DemoInput: We use Mouse Scrollwheel for camera zoom within the demo provided.
+In your Input Settings, be sure to have the "Mouse ScrollWheel"[case sensitive]
+Input within your Project.
+
+During development, I worked with these settings Within the Input itself:
+
+- Name ("Mouse ScrollWheel")
+- ~(1<<6) are null[blank]
+- Gravity: 2.8f;
+- Dead: 0.005f;
+- Sensitivity; 2.4f;
+- Snap: false;
+- Invert: true;
+- Type: Mouse Movement;
+- Axis: 3rd axis;
+- Joy: All Motion;
+
+The Cinematic Camera simply takes in an anchor to move to, and the Animation name tht you would like to transition too.
+All Animations work with root motion to drive the camera.
+Too reuse this camera make sure you have an animator attatched with the proper animations named within, You do not need any transitions!
+Just make sure the Animation node within your animator has the same name as the one within the Camera editor!!!
+
+Also attatch a rigidbody to your camera, with gravity turned off and kinematic switched on.
+This is an asset i threw together for this demo, do with it as you will.
+
+I was planning to create a tree for each bark material for this demo and pack, if i can ever manage to make that many trees without data loss,
+or frequent crashes, i will update the pack with more demo trees.
+
+
+Notify me at Unity connect:
+https://connect.unity.com/u/5a11583b090915001912915f
+for any questions, comments, or noticible problems that you would like fixed!

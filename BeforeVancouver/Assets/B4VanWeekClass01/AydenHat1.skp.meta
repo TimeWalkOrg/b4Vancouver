@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 4aa189bb684b16d4082e7c0543857f6b
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000001000000
+  assetHash:
+    serializedVersion: 2
+    Hash: e2aa301e69505717e926c439de624ce7
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.08023716, y: 3.5853283, z: 2.1199126}
+      lookAt: {x: 0.19332142, y: 2.0668035, z: -2.7719116}
+      up: {x: 0.006849894, y: 0.95506597, z: -0.2963142}
+      fov: 45
+      aspectRatio: 0
+      orthoSize: 405.2553
+      isPerspective: 0
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: _defaultMat
+    2100002: Ceder Weave Texture
+    2100004: Hat
+    2100006: '[Color M00]'
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Mesh AydenHat1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceder Weave Texture
+    second: {fileID: 2100000, guid: b5f2b7af5a4b1914f9c6d7b3bddfd5e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: 9920c9742da3a424b954593216cb70ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M00]'
+    second: {fileID: 2100000, guid: 90ca29168ee404d4ebb349e81833bc56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 1c8c9dbf00f8c99458e54f345ed745a3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ceder Weave Texture
+    second: {fileID: 2800000, guid: e75eb469d3a1c834c83407ee6d1898ef, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

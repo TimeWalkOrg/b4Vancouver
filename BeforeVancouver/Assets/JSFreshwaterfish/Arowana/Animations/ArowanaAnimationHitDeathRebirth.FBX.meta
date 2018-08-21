@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 5578d6830ab5449fa9002b40c88addc9
+timeCreated: 1468506040
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AnalFin.1
+    100002: AnalFin.2
+    100004: AnalFin.3
+    100006: AnalFin.4
+    100008: //RootNode
+    100010: ArowanaDummy
+    100012: DorsalFin.2
+    100014: DorsalFin.3
+    100016: DorsalFin.4
+    100018: Eye_L
+    100020: Eye_R
+    100022: Head
+    100024: Jaw.2_L
+    100026: Jaw.2_R
+    100028: Jaw.3_L
+    100030: Jaw.3_L.001
+    100032: Jaw.3_R
+    100034: Jaw.3_R.001
+    100036: Joe
+    100038: PectoralFin.1_L
+    100040: PectoralFin.1_R
+    100042: PectoralFin.2_L
+    100044: PectoralFin.2_R
+    100046: PectoralFin.3_L
+    100048: PectoralFin.3_R
+    100050: PelvicFin_L
+    100052: PelvicFin_R
+    100054: RootNode
+    100056: Spine.003
+    100058: Spine.004
+    100060: Spine.005
+    100062: Spine.006
+    100064: Spine.007
+    100066: Spine.008
+    100068: Spine.009
+    100070: Spine.010
+    100072: Spine.1
+    100074: TailFin.002
+    100076: TailFin.003
+    100078: TailFin.1
+    100080: tongue
+    400000: AnalFin.1
+    400002: AnalFin.2
+    400004: AnalFin.3
+    400006: AnalFin.4
+    400008: //RootNode
+    400010: ArowanaDummy
+    400012: DorsalFin.2
+    400014: DorsalFin.3
+    400016: DorsalFin.4
+    400018: Eye_L
+    400020: Eye_R
+    400022: Head
+    400024: Jaw.2_L
+    400026: Jaw.2_R
+    400028: Jaw.3_L
+    400030: Jaw.3_L.001
+    400032: Jaw.3_R
+    400034: Jaw.3_R.001
+    400036: Joe
+    400038: PectoralFin.1_L
+    400040: PectoralFin.1_R
+    400042: PectoralFin.2_L
+    400044: PectoralFin.2_R
+    400046: PectoralFin.3_L
+    400048: PectoralFin.3_R
+    400050: PelvicFin_L
+    400052: PelvicFin_R
+    400054: RootNode
+    400056: Spine.003
+    400058: Spine.004
+    400060: Spine.005
+    400062: Spine.006
+    400064: Spine.007
+    400066: Spine.008
+    400068: Spine.009
+    400070: Spine.010
+    400072: Spine.1
+    400074: TailFin.002
+    400076: TailFin.003
+    400078: TailFin.1
+    400080: tongue
+    7400000: Hit
+    7400002: Death
+    7400004: Float
+    7400006: Rebirth
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ArowanaDummy
+        weight: 1
+      - path: RootNode
+        weight: 1
+      - path: RootNode/Spine.1
+        weight: 1
+      - path: RootNode/Spine.1/Head
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L/Jaw.3_L.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R/Jaw.3_R.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/tongue
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L/PectoralFin.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R/PectoralFin.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/AnalFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/AnalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/DorsalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/AnalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/DorsalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/AnalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/DorsalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.002
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ArowanaDummy
+        weight: 1
+      - path: RootNode
+        weight: 1
+      - path: RootNode/Spine.1
+        weight: 1
+      - path: RootNode/Spine.1/Head
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L/Jaw.3_L.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R/Jaw.3_R.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/tongue
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L/PectoralFin.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R/PectoralFin.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/AnalFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/AnalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/DorsalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/AnalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/DorsalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/AnalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/DorsalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.002
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Float
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ArowanaDummy
+        weight: 1
+      - path: RootNode
+        weight: 1
+      - path: RootNode/Spine.1
+        weight: 1
+      - path: RootNode/Spine.1/Head
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L/Jaw.3_L.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R/Jaw.3_R.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/tongue
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L/PectoralFin.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R/PectoralFin.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/AnalFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/AnalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/DorsalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/AnalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/DorsalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/AnalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/DorsalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.002
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rebirth
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ArowanaDummy
+        weight: 1
+      - path: RootNode
+        weight: 1
+      - path: RootNode/Spine.1
+        weight: 1
+      - path: RootNode/Spine.1/Head
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Eye_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_L/Jaw.3_L.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Jaw.3_R/Jaw.3_R.001
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/Jaw.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Head/Joe/tongue
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_L/PectoralFin.2_L/PectoralFin.3_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/PectoralFin.1_R/PectoralFin.2_R/PectoralFin.3_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_L
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/PelvicFin_R
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/AnalFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/AnalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/DorsalFin.2
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/AnalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/DorsalFin.3
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/AnalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/DorsalFin.4
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.1
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.002
+        weight: 1
+      - path: RootNode/Spine.1/Spine.010/Spine.003/Spine.004/Spine.005/Spine.006/Spine.007/Spine.008/Spine.009/TailFin.003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: RootNode
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

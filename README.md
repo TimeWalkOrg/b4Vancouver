@@ -14,6 +14,14 @@ The B4Vancouver team is recreating the Squamish village of "Senakw" as of 1866 C
 Map of the village:
 ![Map](https://github.com/TimeWalkOrg/BeforeVancouver/blob/master/Sun'ahk%20Map.jpg)
 
+Native Trees of this area c.1800:
+* see "Cathedral Grove" as example of how the area looked in the past
+* Red Cedar
+* Douglas Fir
+* Western Hemlock
+* Sitka Spruce
+* Big Leaf Maple
+
 To download the Unity Project files, you can either:
 1. use a Github client (e.g. Sourcetree), which will allow you to make local changes and push them back to the project
 2. click the green "Clone or download" button above, then choose "Download ZIP".  When the .zip file is downloaded, extract it onto your local hard drive

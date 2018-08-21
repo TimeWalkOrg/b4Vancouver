@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: 795b7fe295e4de046b7804889e3a0e61
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000001000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 64af4d6fe56c20ee503df2abe3e5e99b
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -8.632332, y: 14.348613, z: -25.54662}
+      lookAt: {x: 3.9521909, y: 6.8944545, z: -12.498047}
+      up: {x: 0.26399732, y: 0.9248655, z: 0.2737321}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: _defaultMat
+    2100002: Storage Basket A478-04#27
+    2100004: Storage Basket A478-04#23
+    2100006: Storage Basket A478-04#9
+    2100008: Storage Basket A478-03#8
+    2100010: Storage Basket A478-04#10
+    2100012: Storage Basket A478-03#4
+    2100014: Storage Basket A478-03#3
+    2100016: Storage Basket A478-04#24
+    2100018: Storage Basket A478-03#2
+    2100020: Storage Basket A478-03#6
+    2100022: Storage Basket A478-04#2
+    2100024: Storage Basket A478-04#17
+    2100026: Storage Basket A478-04#11
+    2100028: Storage Basket A478-04#13
+    2100030: Storage Basket A478-04#14
+    2100032: Storage Basket A478-04#12
+    2100034: Storage Basket A478-04#16
+    2100036: Storage Basket A478-04#15
+    2100038: Storage Basket A478-03#5
+    2100040: Storage Basket A478-04#3
+    2100042: Storage Basket A478-03#1
+    2100044: Storage Basket A478-04#8
+    2100046: Storage Basket A478-04#18
+    2100048: Storage Basket A478-04#25
+    2100050: Storage Basket A478-04#26
+    2100052: Storage Basket A478-04#19
+    2100054: Storage Basket A478-04#4
+    2100056: Storage Basket A478-04#22
+    2100058: Storage Basket A478-04#5
+    2100060: Storage Basket A478-04#7
+    2100062: Storage Basket A478-04#20
+    2100064: Storage Basket A478-04#6
+    2100066: Storage Basket A478-04#21
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Mesh Anton_storageBasket-A478-04
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#1
+    second: {fileID: 2100000, guid: 739f2b3441a29614a86089fe90c024e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#2
+    second: {fileID: 2100000, guid: 981d1fa2825ebed4d8f594be5e1c543c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#3
+    second: {fileID: 2100000, guid: 167cf1db50e25e6429143ba86eabc4b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#4
+    second: {fileID: 2100000, guid: 45dc908300d2859498903ef3527ae5a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#5
+    second: {fileID: 2100000, guid: 45839b672c5ba424990cb0597385a9e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#6
+    second: {fileID: 2100000, guid: 24958f625187a2c48a9e46ed3b0d1267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#8
+    second: {fileID: 2100000, guid: 2ef3d3a6451bf204a94c8078b23c45d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#10
+    second: {fileID: 2100000, guid: 36e2bb64063d61b4e86b86572867742f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#11
+    second: {fileID: 2100000, guid: 2d77ea0938d7a8741ae79481e829c858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#12
+    second: {fileID: 2100000, guid: c222c34832ed0d64cb7315f61fea0b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#13
+    second: {fileID: 2100000, guid: af7b8a9dcc6a2f443a75a73d93f814ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#14
+    second: {fileID: 2100000, guid: bcbda9f50b02ea14b88e10a4eaa47930, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#15
+    second: {fileID: 2100000, guid: 8e59353a15c111a4e9480a1fa43e4db0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#16
+    second: {fileID: 2100000, guid: 09d10b7da085f41429319f2943552dac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#17
+    second: {fileID: 2100000, guid: 56a1f204f31f4154a83f8f908a475526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#18
+    second: {fileID: 2100000, guid: 8e3d75d80b5a32944901e3b4ce368c00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#19
+    second: {fileID: 2100000, guid: d09c6b54a7ce7f0439478cda21a8d1ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#2
+    second: {fileID: 2100000, guid: 55b06b7c509c0e24da65c04a970000cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#20
+    second: {fileID: 2100000, guid: 4bc0f1ccb09ac93438ccb660998d7e15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#21
+    second: {fileID: 2100000, guid: df5e919a921146141bdedcc2416863df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#22
+    second: {fileID: 2100000, guid: ce8a1a8fe7dcbd74cb208f540815fb2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#23
+    second: {fileID: 2100000, guid: c495fc3bd21b12c47b845c497e078866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#24
+    second: {fileID: 2100000, guid: f8d7c2b6b41accc43a64266344b9120d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#25
+    second: {fileID: 2100000, guid: 7e6bc0bc95277f544a2b84229fc9171f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#26
+    second: {fileID: 2100000, guid: 66d4a8b77d83c1447958de39ab45165e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#27
+    second: {fileID: 2100000, guid: 03fae4af79dec0c4b87f79ea2719dc67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#3
+    second: {fileID: 2100000, guid: a80c1dfc99f20bc4c8d638430f32a468, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#4
+    second: {fileID: 2100000, guid: c1d876f79eab6854d94b24018d1608c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#5
+    second: {fileID: 2100000, guid: c87f4769cbf6a5340bf4d834f34cccf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#6
+    second: {fileID: 2100000, guid: 018abf4cfd276e943954adb9fdb5f9e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#7
+    second: {fileID: 2100000, guid: 0ee0e635fe716124b9adb122dc249b3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#8
+    second: {fileID: 2100000, guid: 804668752b54bc4428dd173729642c5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#9
+    second: {fileID: 2100000, guid: e4934d08452da024695cab71ee0d79f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: bd3992f151d87dd469f8ad16041ff488, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03
+    second: {fileID: 2800000, guid: 1b7a2e1294ec7f743804549d60d9bad1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-03#7
+    second: {fileID: 2800000, guid: 5e7f0fa53806c4947957d1c0ebe22faf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04
+    second: {fileID: 2800000, guid: feba1a1f57856534e981ae21f83cc035, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Storage Basket A478-04#1
+    second: {fileID: 2800000, guid: 9e91357c03b63b54fa6505d9068a2fb4, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 2d8833b4f867c46408c309c26115b0cd
+timeCreated: 1468547076
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AnalFin.1
+    100002: AnalFin.2
+    100004: AnalFin.3
+    100006: AnalFin.4
+    100008: ArowanaLOD0
+    100010: ArowanaLOD1
+    100012: //RootNode
+    100014: DorsalFin.2
+    100016: DorsalFin.3
+    100018: DorsalFin.4
+    100020: Eye_L
+    100022: Eye_R
+    100024: Head
+    100026: Jaw.2_L
+    100028: Jaw.2_R
+    100030: Jaw.3_L
+    100032: Jaw.3_L.001
+    100034: Jaw.3_R
+    100036: Jaw.3_R.001
+    100038: Joe
+    100040: PectoralFin.1_L
+    100042: PectoralFin.1_R
+    100044: PectoralFin.2_L
+    100046: PectoralFin.2_R
+    100048: PectoralFin.3_L
+    100050: PectoralFin.3_R
+    100052: PelvicFin_L
+    100054: PelvicFin_R
+    100056: RootNode
+    100058: Spine.003
+    100060: Spine.004
+    100062: Spine.005
+    100064: Spine.006
+    100066: Spine.007
+    100068: Spine.008
+    100070: Spine.009
+    100072: Spine.010
+    100074: Spine.1
+    100076: TailFin.002
+    100078: TailFin.003
+    100080: TailFin.1
+    100082: tongue
+    400000: AnalFin.1
+    400002: AnalFin.2
+    400004: AnalFin.3
+    400006: AnalFin.4
+    400008: ArowanaLOD0
+    400010: ArowanaLOD1
+    400012: //RootNode
+    400014: DorsalFin.2
+    400016: DorsalFin.3
+    400018: DorsalFin.4
+    400020: Eye_L
+    400022: Eye_R
+    400024: Head
+    400026: Jaw.2_L
+    400028: Jaw.2_R
+    400030: Jaw.3_L
+    400032: Jaw.3_L.001
+    400034: Jaw.3_R
+    400036: Jaw.3_R.001
+    400038: Joe
+    400040: PectoralFin.1_L
+    400042: PectoralFin.1_R
+    400044: PectoralFin.2_L
+    400046: PectoralFin.2_R
+    400048: PectoralFin.3_L
+    400050: PectoralFin.3_R
+    400052: PelvicFin_L
+    400054: PelvicFin_R
+    400056: RootNode
+    400058: Spine.003
+    400060: Spine.004
+    400062: Spine.005
+    400064: Spine.006
+    400066: Spine.007
+    400068: Spine.008
+    400070: Spine.009
+    400072: Spine.010
+    400074: Spine.1
+    400076: TailFin.002
+    400078: TailFin.003
+    400080: TailFin.1
+    400082: tongue
+    4300000: ArowanaLOD0
+    4300002: ArowanaLOD1
+    9500000: //RootNode
+    13700000: ArowanaLOD0
+    13700002: ArowanaLOD1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: RootNode
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
