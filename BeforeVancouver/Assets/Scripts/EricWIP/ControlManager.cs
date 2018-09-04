@@ -119,8 +119,9 @@ public class ControlManager : MonoBehaviour
 
 			if (OVRInput.GetUp(oculusTouchButtonA))
 			{
-				TeleportToLocation();
-			}
+				//TeleportToLocation();
+                SetYear();
+            }
 
 			if (OVRInput.GetUp(oculusTouchButtonB))
             {
@@ -129,7 +130,8 @@ public class ControlManager : MonoBehaviour
 
 			if (OVRInput.GetUp(oculusTouchButtonC))
 			{
-				SetYear();
+                TeleportToLocation();
+                //SetYear();
 			}
 		}
 	}

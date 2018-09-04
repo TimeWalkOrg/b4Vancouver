@@ -59759,7 +59759,7 @@ Prefab:
     - target: {fileID: 114581586422070476, guid: f68073a9285adbb45a012abea4fb383b,
         type: 2}
       propertyPath: yAddition
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68073a9285adbb45a012abea4fb383b, type: 2}
