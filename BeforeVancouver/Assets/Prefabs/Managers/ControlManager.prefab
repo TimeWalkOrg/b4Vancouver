@@ -55,6 +55,8 @@ MonoBehaviour:
     type: 2}
   vrController: {fileID: 1620666441364590, guid: e9a5d777e5a4dbd409f2b199f32e9a57,
     type: 2}
+  vrMobileController: {fileID: 1675330966218070, guid: 01327c2f5c8793f43b7057411f05b8b9,
+    type: 2}
   playerStartT: {fileID: 0}
   yearData:
   - year: 1800
@@ -63,10 +65,17 @@ MonoBehaviour:
   daySkyboxMat: {fileID: 2100000, guid: 9d285e59d9b19d7438621d00392aa38f, type: 2}
   nightSkyboxMat: {fileID: 2100000, guid: 0bc8645d66d6f784398dcfe17ace58d8, type: 2}
   dayLightColor: {r: 0.9834748, g: 0.990566, b: 0.654902, a: 1}
-  nightLightColor: {r: 0, g: 0.7595043, b: 1, a: 0}
-  daySkyColor: {r: 0.9834748, g: 0.990566, b: 0.654902, a: 1}
-  nightSkyColor: {r: 0.089157104, g: 0, b: 1, a: 0}
-  dayLightIntensity: 0.4
+  nightLightColor: {r: 0.8000001, g: 0.56078434, b: 0.3921569, a: 1}
+  daySkyColor: {r: 0.86274517, g: 0.70980394, b: 0.52156866, a: 1}
+  nightSkyColor: {r: 0.8627451, g: 0.70980394, b: 0.52156866, a: 0}
+  dayLightIntensity: 0.2
   nightLightIntensity: 0.1
   lightComponent: {fileID: 0}
-  isDay: 1
+  isDay: 0
+  yAddition: 1
+  teleportLocations:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

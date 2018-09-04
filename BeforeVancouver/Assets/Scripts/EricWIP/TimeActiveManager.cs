@@ -30,10 +30,9 @@ public class TimeActiveManager : MonoBehaviour
 		{
 			bool state = (missive.data.year >= timeActiveRefs[i].yearBuilt) && (missive.data.year < timeActiveRefs[i].yearReplaced);
 			timeActiveRefs[i].gameObject.SetActive(state);
-            // reposition player just above the terrain level (i.e. don't "fall through" the world if it changes)
-            
-
         }
+
+		ControlManager.instance.MovePlayerAboveTerrain();
 	}
 }
 

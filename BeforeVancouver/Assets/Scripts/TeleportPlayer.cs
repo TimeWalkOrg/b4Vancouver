@@ -25,11 +25,7 @@ public class TeleportPlayer : MonoBehaviour {
 
     private void TeleportToLocation()
     {
-        currentLocationIndex++;
-        if (currentLocationIndex >= teleportLocations.Length)
-        {
-            currentLocationIndex = 0;
-        }
+		currentLocationIndex = currentLocationIndex >= teleportLocations.Length ? 0 : currentLocationIndex + 1;
         transform.position = teleportLocations[currentLocationIndex].position;
     }
 }

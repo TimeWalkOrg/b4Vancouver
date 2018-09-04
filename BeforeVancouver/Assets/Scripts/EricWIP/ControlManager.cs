@@ -40,9 +40,15 @@ public class ControlManager : MonoBehaviour
     // controller
     public GameObject fpsController;
     public GameObject vrController;
+	public GameObject vrMobileController;
+
     public Transform playerStartT;
     private GameObject player;
     private GameObject avatar;
+
+	// public so OVRPlayerController can access
+	public bool isGO { get; set; }
+	private bool isTouch = false;
 
     // time active
     public YearData[] yearData;
@@ -60,16 +66,32 @@ public class ControlManager : MonoBehaviour
     public Light lightComponent;
     public bool isDay = true;
 
-    private void Start()
+	// teleport
+	public float yAddition = 1.0f;
+	public Transform[] teleportLocations;
+	private int currentLocationIndex = 0;
+
+	private void Start()
     {
-        if (UnityEngine.XR.XRSettings.enabled)
+		if (UnityEngine.XR.XRSettings.enabled)
         {
-            player = Instantiate(vrController, playerStartT.position, playerStartT.rotation);
+			OVRPlugin.SystemHeadset headsetType = OVRPlugin.GetSystemHeadsetType();
+			isGO = headsetType == OVRPlugin.SystemHeadset.Oculus_Go ? true : false;
+			isTouch = headsetType == OVRPlugin.SystemHeadset.Rift_CV1 || headsetType == OVRPlugin.SystemHeadset.Rift_DK1 || headsetType == OVRPlugin.SystemHeadset.Rift_DK2 ? true : false;
+
+			if (isGO)
+				Instantiate(vrMobileController, playerStartT.position, playerStartT.rotation);
+
+			if (isTouch)
+				Instantiate(vrController, playerStartT.position, playerStartT.rotation);
         }
         else
         {
             player = Instantiate(fpsController, playerStartT.position, playerStartT.rotation);
         }
+
+		player = GameObject.FindGameObjectWithTag("Player");
+
         SetYear(1800);
     }
 
@@ -78,29 +100,26 @@ public class ControlManager : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Y))
             SetYear();
 
-        if (Input.GetKeyUp(KeyCode.N))
-            ToggleDayNight();
-
+		if (Input.GetKeyUp(KeyCode.N))
+			ToggleDayNight();
 
         if (Input.GetKeyUp(KeyCode.T))
             TeleportToLocation();
 
         if (Input.GetKeyUp(KeyCode.Q))
             Application.Quit();
-        #if UNITY_STANDALONE_WIN
+        
         if (UnityEngine.XR.XRSettings.enabled)
 		{
-			OVRInput.Button oculusTouchButtonA = OVRInput.Button.PrimaryIndexTrigger;  // Oculus GO: Trigger button for Time Travel
-            // OVRInput.Button oculusTouchButtonB = OVRInput.Button.One; Commented out for Oculus Rift - check if GO running
-
+			OVRInput.Button oculusTouchButtonA = OVRInput.Button.One; // Oculus GO touch pad click
             OVRInput.Button oculusTouchButtonB = OVRInput.Button.Two; // Oculus GO: Back button for Day/Night
-            OVRInput.Button oculusTouchButtonC = OVRInput.Button.One; // Oculus GO: Click dpad button for Teleport
+			OVRInput.Button oculusTouchButtonC = isGO ? OVRInput.Button.PrimaryIndexTrigger : OVRInput.Button.PrimaryThumbstick; // Oculus GO trigger / Touch press thumbstick
 
-            OVRInput.Controller activeController = OVRInput.GetActiveController();
+			OVRInput.Controller activeController = OVRInput.GetActiveController();
 
 			if (OVRInput.GetUp(oculusTouchButtonA))
-            {
-				SetYear();
+			{
+				TeleportToLocation();
 			}
 
 			if (OVRInput.GetUp(oculusTouchButtonB))
@@ -108,12 +127,24 @@ public class ControlManager : MonoBehaviour
 				ToggleDayNight();
 			}
 
-            if (OVRInput.GetUp(oculusTouchButtonC))
-            {
-                TeleportToLocation();
-            }
-        }
-        #endif
+			if (OVRInput.GetUp(oculusTouchButtonC))
+			{
+				SetYear();
+			}
+		}
+	}
+
+	public void MovePlayerAboveTerrain()
+	{
+		StartCoroutine(DelayUntilTerrainActive());
+	}
+
+	IEnumerator DelayUntilTerrainActive()
+	{
+		while (Terrain.activeTerrain == null || player == null)
+			yield return null;
+
+		player.transform.position = new Vector3(player.transform.position.x, Terrain.activeTerrain.SampleHeight(player.transform.position) + yAddition, player.transform.position.z);
 	}
 
 	private void SetYear(bool isIncrement = true)
@@ -144,8 +175,9 @@ public class ControlManager : MonoBehaviour
 
     private void TeleportToLocation()
     {
-        // Does nothing for now: placed on player object since I couldn't figure out how to remotely change the player location
-    }
+		currentLocationIndex = currentLocationIndex >= teleportLocations.Length - 1 ? 0 : currentLocationIndex + 1;
+		player.transform.position = new Vector3(teleportLocations[currentLocationIndex].position.x, Terrain.activeTerrain.SampleHeight(teleportLocations[currentLocationIndex].position) + yAddition, teleportLocations[currentLocationIndex].position.z);
+	}
 
     private void ToggleDayNight()
 	{
