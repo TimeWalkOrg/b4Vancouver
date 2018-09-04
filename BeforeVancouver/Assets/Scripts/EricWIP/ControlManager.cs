@@ -119,11 +119,14 @@ public class ControlManager : MonoBehaviour
 
 			if (OVRInput.GetUp(oculusTouchButtonA))
 			{
-                //SetYear(); // setting for Oculus Rift
+            #if UNITY_ANDROID // if Android, then running Oculus GO
                 TeleportToLocation(); // setting for Oculus GO
+            #else
+                SetYear(); // setting for Oculus Rift
+            #endif
             }
 
-			if (OVRInput.GetUp(oculusTouchButtonB))
+            if (OVRInput.GetUp(oculusTouchButtonB))
             {
 				ToggleDayNight();
 			}
@@ -131,9 +134,14 @@ public class ControlManager : MonoBehaviour
 			if (OVRInput.GetUp(oculusTouchButtonC))
 			{
                 //TeleportToLocation(); // setting for Oculus Rift
-                SetYear(); // setting for Oculus GO
+
+                #if UNITY_ANDROID // if Android, then running Oculus GO
+                    SetYear(); // setting for Oculus GO
+                #else
+                    TeleportToLocation(); // setting for Oculus Rift
+                #endif
             }
-		}
+        }
 	}
 
 	public void MovePlayerAboveTerrain()
