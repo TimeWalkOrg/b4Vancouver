@@ -119,8 +119,8 @@ public class ControlManager : MonoBehaviour
 
 			if (OVRInput.GetUp(oculusTouchButtonA))
 			{
-				//TeleportToLocation();
-                SetYear();
+                //SetYear(); // setting for Oculus Rift
+                TeleportToLocation(); // setting for Oculus GO
             }
 
 			if (OVRInput.GetUp(oculusTouchButtonB))
@@ -130,9 +130,9 @@ public class ControlManager : MonoBehaviour
 
 			if (OVRInput.GetUp(oculusTouchButtonC))
 			{
-                TeleportToLocation();
-                //SetYear();
-			}
+                //TeleportToLocation(); // setting for Oculus Rift
+                SetYear(); // setting for Oculus GO
+            }
 		}
 	}
 
