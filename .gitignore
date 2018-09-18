@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+BeforeVancouver/Assets/Oculus/VR/Plugins/1.27.0/Win64/OVRPlugin.dll.meta
+BeforeVancouver/Assets/Oculus/VR/Plugins/1.27.0/Win/OVRPlugin.dll.meta
