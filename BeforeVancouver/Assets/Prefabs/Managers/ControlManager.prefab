@@ -62,12 +62,12 @@ MonoBehaviour:
   - year: 1800
   - year: 2018
   currentYearIndex: 0
-  daySkyboxMat: {fileID: 2100000, guid: 9d285e59d9b19d7438621d00392aa38f, type: 2}
-  nightSkyboxMat: {fileID: 2100000, guid: 0bc8645d66d6f784398dcfe17ace58d8, type: 2}
+  daySkyboxMat: {fileID: 2100000, guid: ca2ca85211f2c4957b7ff712a5460da8, type: 2}
+  nightSkyboxMat: {fileID: 2100000, guid: f583facf72cae4f998766155a7e1f787, type: 2}
   dayLightColor: {r: 0.9834748, g: 0.990566, b: 0.654902, a: 1}
-  nightLightColor: {r: 0.8000001, g: 0.56078434, b: 0.3921569, a: 1}
+  nightLightColor: {r: 0.20225172, g: 0.21240008, b: 0.9528302, a: 1}
   daySkyColor: {r: 0.86274517, g: 0.70980394, b: 0.52156866, a: 1}
-  nightSkyColor: {r: 0.8627451, g: 0.70980394, b: 0.52156866, a: 0}
+  nightSkyColor: {r: 0.39208794, g: 0.66532916, b: 0.9339623, a: 0}
   dayLightIntensity: 0.2
   nightLightIntensity: 0.1
   lightComponent: {fileID: 0}
