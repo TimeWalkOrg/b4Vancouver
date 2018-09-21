@@ -67216,7 +67216,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1344031527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.9, y: -28.109373, z: 72.8}
+  m_LocalPosition: {x: -19.3, y: -28.7, z: 55.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1245455611}
@@ -67377,9 +67377,9 @@ MonoBehaviour:
   _minAnimationSpeed: 0.8
   _maxAnimationSpeed: 1.2
   _randomPositionTimer: 3
-  _positionSphere: 27.5
-  _positionSphereHeight: 4.29
-  _positionSphereDepth: 10.7
+  _positionSphere: 30.25
+  _positionSphereHeight: 5.9
+  _positionSphereDepth: 17.1
   _childTriggerPos: 1
   _forceChildWaypoints: 1
   _forcedRandomDelay: 2
@@ -67397,7 +67397,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   _roamers: []
-  _posBuffer: {x: 2413.4705, y: 103.93829, z: 2706.3342}
+  _posBuffer: {x: 2407.0703, y: 103.340576, z: 2689.3342}
   _updateDivisor: 1
   _newDelta: 0
   _updateCounter: 0
