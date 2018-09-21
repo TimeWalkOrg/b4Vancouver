@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: c91c1eb85782d5748ace27eb4d7415bb
 SpeedTreeImporter:
+  externalObjects: {}
   serializedVersion: 4
   mainColor: {r: 1, g: 1, b: 1, a: 1}
   hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
@@ -8,7 +9,7 @@ SpeedTreeImporter:
   bestWindQuality: 4
   hasBillboard: 1
   lODSettings:
-  - height: 0.5
+  - height: 0.40395868
     castShadows: 1
     receiveShadows: 1
     useLightProbes: 1
