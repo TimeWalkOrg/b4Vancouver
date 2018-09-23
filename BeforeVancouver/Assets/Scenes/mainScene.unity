@@ -55295,8 +55295,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &914080046
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -74767,6 +74765,22 @@ PrefabInstance:
     - target: {fileID: 4188031446617490, guid: f68073a9285adbb45a012abea4fb383b, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188031446617490, guid: f68073a9285adbb45a012abea4fb383b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188031446617490, guid: f68073a9285adbb45a012abea4fb383b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188031446617490, guid: f68073a9285adbb45a012abea4fb383b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1511948207023966, guid: f68073a9285adbb45a012abea4fb383b, type: 3}
+      propertyPath: m_Name
+      value: ControlManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68073a9285adbb45a012abea4fb383b, type: 3}
