@@ -87,12 +87,12 @@ public class ControlManager : MonoBehaviour
         }
         else
         {
-            player = Instantiate(fpsController, playerStartT.position, playerStartT.rotation);
+ //           player = Instantiate(fpsController, playerStartT.position, playerStartT.rotation);
         }
 
-		player = GameObject.FindGameObjectWithTag("Player");
+//		player = GameObject.FindGameObjectWithTag("Player");
 
-        SetYear(1800);
+        SetYear(2018);
     }
 
     private void Update()
@@ -172,7 +172,7 @@ public class ControlManager : MonoBehaviour
 				currentYearIndex = i;
 			}
 		}
-		currentYearIndex = 0;
+		// currentYearIndex = 0;
 		SendYearDataMissive(yearData[currentYearIndex]);
 	}
 

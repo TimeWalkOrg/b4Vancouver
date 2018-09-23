@@ -51,17 +51,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88be14e43253e84fa2caee7e5f17074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fpsController: {fileID: 1849108729063988, guid: 94ebb6bb55f89c447905f32649c29a38,
-    type: 2}
-  vrController: {fileID: 1620666441364590, guid: e9a5d777e5a4dbd409f2b199f32e9a57,
-    type: 2}
+  fpsController: {fileID: 0}
+  vrController: {fileID: 0}
   vrMobileController: {fileID: 1675330966218070, guid: 01327c2f5c8793f43b7057411f05b8b9,
     type: 2}
   playerStartT: {fileID: 0}
   yearData:
   - year: 1800
   - year: 2018
-  currentYearIndex: 0
+  - year: 1899
+  currentYearIndex: 1
   daySkyboxMat: {fileID: 2100000, guid: ca2ca85211f2c4957b7ff712a5460da8, type: 2}
   nightSkyboxMat: {fileID: 2100000, guid: f583facf72cae4f998766155a7e1f787, type: 2}
   dayLightColor: {r: 0.9834748, g: 0.990566, b: 0.654902, a: 1}
@@ -71,7 +70,7 @@ MonoBehaviour:
   dayLightIntensity: 0.2
   nightLightIntensity: 0.1
   lightComponent: {fileID: 0}
-  isDay: 0
+  isDay: 1
   yAddition: 1
   teleportLocations:
   - {fileID: 0}
