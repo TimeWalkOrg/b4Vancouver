@@ -73,9 +73,11 @@ public class ControlManager : MonoBehaviour
 
 	private void Start()
     {
-		if (UnityEngine.XR.XRSettings.enabled)
+        Debug.Log("at Start");
+        if (UnityEngine.XR.XRSettings.enabled)
         {
-			OVRPlugin.SystemHeadset headsetType = OVRPlugin.GetSystemHeadsetType();
+            Debug.Log("XR enabled...");
+            OVRPlugin.SystemHeadset headsetType = OVRPlugin.GetSystemHeadsetType();
 			isGO = headsetType == OVRPlugin.SystemHeadset.Oculus_Go ? true : false;
 			isTouch = headsetType == OVRPlugin.SystemHeadset.Rift_CV1 || headsetType == OVRPlugin.SystemHeadset.Rift_DK1 || headsetType == OVRPlugin.SystemHeadset.Rift_DK2 ? true : false;
 
@@ -93,6 +95,7 @@ public class ControlManager : MonoBehaviour
 		player = GameObject.FindGameObjectWithTag("Player");
 
         SetYear(1800);
+        Debug.Log("Year set");
     }
 
     private void Update()
