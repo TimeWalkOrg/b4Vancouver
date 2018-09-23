@@ -1,21 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1511948207023966}
-  m_IsPrefabAsset: 1
 --- !u!1 &1511948207023966
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4188031446617490}
@@ -29,9 +19,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &4188031446617490
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511948207023966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -42,25 +33,24 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114581586422070476
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511948207023966}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e88be14e43253e84fa2caee7e5f17074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fpsController: {fileID: 1849108729063988, guid: 94ebb6bb55f89c447905f32649c29a38,
-    type: 2}
-  vrController: {fileID: 1620666441364590, guid: e9a5d777e5a4dbd409f2b199f32e9a57,
-    type: 2}
-  vrMobileController: {fileID: 1675330966218070, guid: 01327c2f5c8793f43b7057411f05b8b9,
-    type: 2}
-  playerStartT: {fileID: 0}
+  fpsController: {fileID: 1849108729063988, guid: 94ebb6bb55f89c447905f32649c29a38, type: 3}
+  vrController: {fileID: 1620666441364590, guid: e9a5d777e5a4dbd409f2b199f32e9a57, type: 3}
+  vrMobileController: {fileID: 1675330966218070, guid: 01327c2f5c8793f43b7057411f05b8b9, type: 3}
+  playerStartT: {fileID: 4718921049359170, guid: 9424cf4c20a30404a83146a051b709ab, type: 3}
   yearData:
   - year: 1800
   - year: 2018
+  - year: 1899
   currentYearIndex: 0
   daySkyboxMat: {fileID: 2100000, guid: ca2ca85211f2c4957b7ff712a5460da8, type: 2}
   nightSkyboxMat: {fileID: 2100000, guid: f583facf72cae4f998766155a7e1f787, type: 2}
@@ -70,12 +60,12 @@ MonoBehaviour:
   nightSkyColor: {r: 0.39208794, g: 0.66532916, b: 0.9339623, a: 0}
   dayLightIntensity: 0.2
   nightLightIntensity: 0.1
-  lightComponent: {fileID: 0}
-  isDay: 0
+  lightComponent: {fileID: 4927220449060923593, guid: 54fbfdc19a104864fac7ff20b4fc6bd8, type: 3}
+  isDay: 1
   yAddition: 1
   teleportLocations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 4718921049359170, guid: 9424cf4c20a30404a83146a051b709ab, type: 3}
+  - {fileID: 4085130876035584, guid: 50b8752d7d6d53f4c87ef6aa7d29f7e7, type: 3}
+  - {fileID: 4047496905598594, guid: 4fb94a0ce265b074f9f3c7c3c5ddebab, type: 3}
+  - {fileID: 4266014521304908, guid: 3df81f6d99b7f2241999aab0639209f1, type: 3}
+  - {fileID: 4565745217267280, guid: eb08bc18c59231e418a9c872ebcaea98, type: 3}
