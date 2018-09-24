@@ -1,17 +1,23 @@
 fileFormatVersion: 2
-guid: fbc84e37da7cffc4d9db8102ac51a5a6
+guid: d870fcfa1434e94408b4ff98ff17de30
+folderAsset: yes
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
   iconMap: {}
   executionOrder: {}
   defineConstraints: []
-  isPreloaded: 0
+  isPreloaded: 1
   isOverridable: 0
   isExplicitlyReferenced: 0
   platformData:
   - first:
-      Android: Android
+      '': OSXIntel
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      '': OSXIntel64
     second:
       enabled: 1
       settings: {}
@@ -23,9 +29,14 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-      enabled: 0
+      enabled: 1
       settings:
         DefaultValueInitialized: true
+  - first:
+      Standalone: OSXUniversal
+    second:
+      enabled: 1
+      settings: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
