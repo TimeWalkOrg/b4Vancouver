@@ -1,0 +1,23 @@
+0000-0000 Bind Pose
+0002-0012 loop Run
+0015-0023 Run Turn Left 
+0026-0035 Run Turn Right
+0038-0053 loop Jump Short
+0056-0076 loop Jump Long
+0079-0093 loop Walk
+0096-0145 loop Idle
+0148-0216 loop Idle 01
+0219-0260 Loop Fight Idle
+0261-0322 loop Attack
+0323-0339 loop Hit Right
+0340-0355 loop Hit Left
+0356-0373 loop Hit Front
+0374-0389 loop Hit Back
+0391-0405 Fight With Death
+0406-0418 Run With Death
+0420-0552 loop Eating
+0555-0587 loop Sleeping
+0590-0604 loop Walk Turn Left
+0607-0621 loop Walk Turn Right
+0624-0633 loop Run Turn Left
+0636-0645 loop Run Turn Right

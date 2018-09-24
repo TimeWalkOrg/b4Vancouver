@@ -1,0 +1,44 @@
+0-0 Bind Pose
+
+2-24 loop Springbok
+
+28-41 loop Run
+
+45-70 loop Run With Jump
+
+74-86 loop Run Fast
+
+90-119 loop Walk
+
+123-175 loop Walk Eating
+
+179-238 loop Eating
+
+242-272 loop Jump
+
+276-394 loop Idle
+
+398-488 loop Idle01
+491-509 Lie Down
+
+511-570 loop Rest
+
+572-591 Stand Up
+
+594-652 loop Fight Idle
+
+655-679 loop Attack Back
+
+682-705 loop Attack Front
+
+709-723 loop Hit Left
+
+726-740 loop Hit Right
+
+743-757 loop Hit Front
+
+760-774 loop Hit Back
+
+777-793 Death
+
+795-809 Death01

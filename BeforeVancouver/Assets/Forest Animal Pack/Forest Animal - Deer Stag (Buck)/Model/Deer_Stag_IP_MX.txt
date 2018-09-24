@@ -1,0 +1,56 @@
+0-0 BindPose
+1-23 Idle
+
+26-39 loop Run
+
+43-68 loop Run With Jump
+
+72-85 loop Run Fast
+
+88-117 loop Walk
+
+121-173 loop Walk Eating
+
+177-236 loop Eating
+
+240-270 loop Jump
+
+274-392 loop Idle01
+
+396-486 loop Idle02
+
+489-507 Lie Down
+
+509-568 loop Rest
+
+570-589 Stand Up
+
+592-650 loop Fight Idle
+
+653-677 loop Attack Back
+
+680-704 loop Attack Front
+
+707-721 loop Hit Left
+
+724-738 loop Hit Right
+
+741-755 loop Hit Front
+
+758-772 loop Hit Back
+
+775-791 Death
+
+793-807 Death01
+
+810-889 loop Roar
+
+893-923 loop Walk Back
+
+926-938 loop Run Attack
+
+942-969 loop Walk Fight
+
+972-1000 loop Walk Fight Back
+
+1004-1029 loop Run Attack 01 (Bonus)
