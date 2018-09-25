@@ -46,6 +46,7 @@ MonoBehaviour:
   fpsController: {fileID: 1849108729063988, guid: 94ebb6bb55f89c447905f32649c29a38, type: 3}
   vrController: {fileID: 1620666441364590, guid: e9a5d777e5a4dbd409f2b199f32e9a57, type: 3}
   vrMobileController: {fileID: 1675330966218070, guid: 01327c2f5c8793f43b7057411f05b8b9, type: 3}
+  yearDisplay: {fileID: 8183679451154401784, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
   playerStartT: {fileID: 4718921049359170, guid: 9424cf4c20a30404a83146a051b709ab, type: 3}
   yearData:
   - year: 1800

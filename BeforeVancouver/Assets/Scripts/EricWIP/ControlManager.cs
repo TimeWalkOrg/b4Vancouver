@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ControlManager : MonoBehaviour
 {
@@ -41,6 +42,7 @@ public class ControlManager : MonoBehaviour
     public GameObject fpsController;
     public GameObject vrController;
 	public GameObject vrMobileController;
+    public GameObject yearDisplay;
 
     public Transform playerStartT;
     private GameObject player;
@@ -52,6 +54,7 @@ public class ControlManager : MonoBehaviour
 
     // time active
     public YearData[] yearData;
+    private string yearString;
     public int currentYearIndex;// { get; private set; }
 
     // night day
@@ -73,7 +76,7 @@ public class ControlManager : MonoBehaviour
 
 	private void Start()
     {
-		if (UnityEngine.XR.XRSettings.enabled)
+        if (UnityEngine.XR.XRSettings.enabled)
         {
 			OVRPlugin.SystemHeadset headsetType = OVRPlugin.GetSystemHeadsetType();
 			isGO = headsetType == OVRPlugin.SystemHeadset.Oculus_Go ? true : false;
@@ -160,21 +163,33 @@ public class ControlManager : MonoBehaviour
 	private void SetYear(bool isIncrement = true)
 	{
 		currentYearIndex = isIncrement ? (currentYearIndex >= yearData.Length - 1 ? 0 : currentYearIndex + 1) : (currentYearIndex > 0 ? currentYearIndex - 1 : yearData.Length - 1);
-		SendYearDataMissive(yearData[currentYearIndex]);
-	}
+        yearString = yearData[currentYearIndex].year.ToString();
+        Debug.Log(yearString);
+
+        TextMeshPro textmeshPro = yearDisplay.GetComponent<TextMeshPro>();
+        textmeshPro.SetText(yearString);
+
+        SendYearDataMissive(yearData[currentYearIndex]);
+    }
 
 	private void SetYear(int year)
 	{
-		for (int i = 0; i < yearData.Length; i++)
+
+        for (int i = 0; i < yearData.Length; i++)
 		{
 			if (year == yearData[i].year)
 			{
 				currentYearIndex = i;
 			}
 		}
-		currentYearIndex = 0;
-		SendYearDataMissive(yearData[currentYearIndex]);
-	}
+        yearString = yearData[currentYearIndex].year.ToString();
+        Debug.Log(yearString);
+        TextMeshPro textmeshPro = yearDisplay.GetComponent<TextMeshPro>();
+        textmeshPro.SetText(yearString);
+        SendYearDataMissive(yearData[currentYearIndex]);
+        currentYearIndex = 0;
+
+    }
 
 	private void SendYearDataMissive(YearData data)
 	{
