@@ -49,7 +49,7 @@ MonoBehaviour:
   yearDisplay: {fileID: 8183679451154401784, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
   playerStartT: {fileID: 4718921049359170, guid: 9424cf4c20a30404a83146a051b709ab, type: 3}
   yearData:
-  - year: 1800
+  - year: 1858
   - year: 2018
   - year: 1899
   currentYearIndex: 0

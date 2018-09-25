@@ -164,7 +164,7 @@ public class ControlManager : MonoBehaviour
 	{
 		currentYearIndex = isIncrement ? (currentYearIndex >= yearData.Length - 1 ? 0 : currentYearIndex + 1) : (currentYearIndex > 0 ? currentYearIndex - 1 : yearData.Length - 1);
         yearString = yearData[currentYearIndex].year.ToString();
-        Debug.Log(yearString);
+ //       Debug.Log(yearString);
 
         TextMeshPro textmeshPro = yearDisplay.GetComponent<TextMeshPro>();
         textmeshPro.SetText(yearString);
@@ -183,7 +183,7 @@ public class ControlManager : MonoBehaviour
 			}
 		}
         yearString = yearData[currentYearIndex].year.ToString();
-        Debug.Log(yearString);
+ //       Debug.Log(yearString);
         TextMeshPro textmeshPro = yearDisplay.GetComponent<TextMeshPro>();
         textmeshPro.SetText(yearString);
         SendYearDataMissive(yearData[currentYearIndex]);

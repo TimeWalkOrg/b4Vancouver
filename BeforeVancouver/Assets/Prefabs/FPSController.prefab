@@ -148,6 +148,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 5295423682816858587}
+  startAlphaValue: 1
+  endAlphaValue: 0
+  fadeDurationSeconds: 3
 --- !u!1 &1926171580920842
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +435,11 @@ MonoBehaviour:
   dx11BokehTexture: {fileID: 2800000, guid: a4cdca73d61814d33ac1587f6c163bca, type: 3}
   dx11BokehScale: 1.2
   dx11BokehIntensity: 2.5
+--- !u!1 &4892707039662314804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8183679451154401784, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
+  m_PrefabInstance: {fileID: 3635572835391954124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2034067164024210518 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3336696133092890778, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
@@ -442,12 +450,27 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8865681058065384727, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
   m_PrefabInstance: {fileID: 3635572835391954124}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 4892707039662314804}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3547819114132015566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892707039662314804}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e2a4e2da4618c4a8b7992f9bc2463a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeSpeed: 1
+  RolloverCharacterSpread: 10
+  ColorTint: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &3635572835391954124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -490,6 +513,10 @@ PrefabInstance:
     - target: {fileID: 8865681058065384727, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
       propertyPath: m_inputSource
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370744015000727120, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
