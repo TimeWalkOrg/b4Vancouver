@@ -2060,7 +2060,7 @@ MonoBehaviour:
   TeleportDestinationPrefab: {fileID: 114000013141257940, guid: d9a70b93c8a832e468d7000b1671a4e4, type: 3}
   AimCollisionType: 1
   UseCharacterCollisionData: 0
-  AimCollisionRadius: 0.1
+  AimCollisionRadius: 0.25
   AimCollisionHeight: 2
 --- !u!114 &114381430046113236
 MonoBehaviour:
