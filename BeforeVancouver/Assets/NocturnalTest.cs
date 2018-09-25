@@ -16,22 +16,18 @@ public class NocturnalTest : MonoBehaviour
         isDayLast = isDayNow;
         if (isDayNow && visibleInDay)
         {
-            Debug.Log("Daytime: show objects");
             showChildren(true);
         }
         else
         {
-            Debug.Log("Daytime: hide objects");
             showChildren(false);
         }
         if (!isDayNow && visibleInNight)
         {
-            Debug.Log("Night: show objects");
             showChildren(true);
         }
         else
         {
-            Debug.Log("Night: hide objects");
             showChildren(false);
         }
     }
@@ -45,22 +41,22 @@ public class NocturnalTest : MonoBehaviour
             isDayLast = isDayNow;
             if(isDayNow && visibleInDay)
             {
-                Debug.Log("Daytime: show objects");
+ //               Debug.Log("Daytime: show objects");
                 showChildren(true);
             }
             else
             {
-                Debug.Log("Daytime: hide objects");
+//                Debug.Log("Daytime: hide objects");
                 showChildren(false);
             }
             if (!isDayNow && visibleInNight)
             {
-                Debug.Log("Night: show objects");
+ //               Debug.Log("Night: show objects");
                 showChildren(true);
             }
             else
             {
-                Debug.Log("Night: hide objects");
+ //               Debug.Log("Night: hide objects");
                 showChildren(false);
             }
         }
