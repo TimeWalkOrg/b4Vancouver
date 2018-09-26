@@ -112,7 +112,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: 0.3
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -146,7 +146,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.timewalk.b4Vancouver
+    Android: com.timewalk.b4V
     Standalone: com.timewalk.b4vancouver
   buildNumber: {}
   AndroidBundleVersionCode: 1
