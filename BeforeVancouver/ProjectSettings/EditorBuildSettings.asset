@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/mainScene.unity
     guid: 6c7a7a52200b69044ab8e0f20f6fe43d
   - enabled: 1
-    path: Assets/mainSceneOculusGO.unity
+    path: Assets/Scenes/mainSceneOculusGO.unity
     guid: 69ae4196faed9eb4eaa38c9fe3706ecd
   m_configObjects: {}
